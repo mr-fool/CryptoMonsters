@@ -11,5 +11,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         uint attackPower;
         uint defensePower;
     }
+    Monster[] public monsters;
+    
 
 }
