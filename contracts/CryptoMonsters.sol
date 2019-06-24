@@ -14,9 +14,16 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
     Monster[] public monsters;
     address public owner;
 
-    constructor CryptoMonsters() public{
+    constructor() public {
         //Only the owner can create crypto monster
         owner = msg.sender;
+    }
+
+    function createMonster(string memory _name, address _to) public {
+        require(owner == msg.sender);
+        uint id =  monsters.lengh;
+        monsters.push(Monster(_name, 1, 100, 100));
+        _mint();
     }
 
 }
