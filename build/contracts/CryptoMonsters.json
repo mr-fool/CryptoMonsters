@@ -564,21 +564,21 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"getApproved\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"to\",\"type\":\"address\"},{\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"from\",\"type\":\"address\"},{\"name\":\"to\",\"type\":\"address\"},{\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_monsterId\",\"type\":\"uint256\"},{\"name\":\"_targetId\",\"type\":\"uint256\"}],\"name\":\"battle\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"owner\",\"type\":\"address\"},{\"name\":\"index\",\"type\":\"uint256\"}],\"name\":\"tokenOfOwnerByIndex\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"to\",\"type\":\"address\"},{\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"mint\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"from\",\"type\":\"address\"},{\"name\":\"to\",\"type\":\"address\"},{\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"safeTransferFrom\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"index\",\"type\":\"uint256\"}],\"name\":\"tokenByIndex\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"ownerOf\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addMinter\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceMinter\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"to\",\"type\":\"address\"},{\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"setApprovalForAll\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isMinter\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_name\",\"type\":\"string\"},{\"name\":\"_level\",\"type\":\"uint256\"},{\"name\":\"_attackPower\",\"type\":\"uint256\"},{\"name\":\"_defensePower\",\"type\":\"uint256\"},{\"name\":\"_to\",\"type\":\"address\"}],\"name\":\"createMonster\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"from\",\"type\":\"address\"},{\"name\":\"to\",\"type\":\"address\"},{\"name\":\"tokenId\",\"type\":\"uint256\"},{\"name\":\"_data\",\"type\":\"bytes\"}],\"name\":\"safeTransferFrom\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"monsters\",\"outputs\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"level\",\"type\":\"uint256\"},{\"name\":\"attackPower\",\"type\":\"uint256\"},{\"name\":\"defensePower\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"tokenURI\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"owner\",\"type\":\"address\"},{\"name\":\"operator\",\"type\":\"address\"}],\"name\":\"isApprovedForAll\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"MinterAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"MinterRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"to\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"approved\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"Approval\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"operator\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"ApprovalForAll\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{\"approve(address,uint256)\":{\"details\":\"Approves another address to transfer the given token ID The zero address indicates there is no approved address. There can only be one approved address per token at a given time. Can only be called by the token owner or an approved operator.\",\"params\":{\"to\":\"address to be approved for the given token ID\",\"tokenId\":\"uint256 ID of the token to be approved\"}},\"balanceOf(address)\":{\"details\":\"Gets the balance of the specified address.\",\"params\":{\"owner\":\"address to query the balance of\"},\"return\":\"uint256 representing the amount owned by the passed address\"},\"getApproved(uint256)\":{\"details\":\"Gets the approved address for a token ID, or zero if no address set Reverts if the token ID does not exist.\",\"params\":{\"tokenId\":\"uint256 ID of the token to query the approval of\"},\"return\":\"address currently approved for the given token ID\"},\"isApprovedForAll(address,address)\":{\"details\":\"Tells whether an operator is approved by a given owner.\",\"params\":{\"operator\":\"operator address which you want to query the approval of\",\"owner\":\"owner address which you want to query the approval of\"},\"return\":\"bool whether the given operator is approved by the given owner\"},\"mint(address,uint256)\":{\"details\":\"Function to mint tokens.\",\"params\":{\"to\":\"The address that will receive the minted tokens.\",\"tokenId\":\"The token id to mint.\"},\"return\":\"A boolean that indicates if the operation was successful.\"},\"name()\":{\"details\":\"Gets the token name.\",\"return\":\"string representing the token name\"},\"ownerOf(uint256)\":{\"details\":\"Gets the owner of the specified token ID.\",\"params\":{\"tokenId\":\"uint256 ID of the token to query the owner of\"},\"return\":\"address currently marked as the owner of the given token ID\"},\"safeTransferFrom(address,address,uint256)\":{\"details\":\"Safely transfers the ownership of a given token ID to another address If the target address is a contract, it must implement `onERC721Received`, which is called upon a safe transfer, and return the magic value `bytes4(keccak256(\\\"onERC721Received(address,address,uint256,bytes)\\\"))`; otherwise, the transfer is reverted. Requires the msg.sender to be the owner, approved, or operator\",\"params\":{\"from\":\"current owner of the token\",\"to\":\"address to receive the ownership of the given token ID\",\"tokenId\":\"uint256 ID of the token to be transferred\"}},\"safeTransferFrom(address,address,uint256,bytes)\":{\"details\":\"Safely transfers the ownership of a given token ID to another address If the target address is a contract, it must implement `onERC721Received`, which is called upon a safe transfer, and return the magic value `bytes4(keccak256(\\\"onERC721Received(address,address,uint256,bytes)\\\"))`; otherwise, the transfer is reverted. Requires the msg.sender to be the owner, approved, or operator\",\"params\":{\"_data\":\"bytes data to send along with a safe transfer check\",\"from\":\"current owner of the token\",\"to\":\"address to receive the ownership of the given token ID\",\"tokenId\":\"uint256 ID of the token to be transferred\"}},\"setApprovalForAll(address,bool)\":{\"details\":\"Sets or unsets the approval of a given operator An operator is allowed to transfer all tokens of the sender on their behalf.\",\"params\":{\"approved\":\"representing the status of the approval to be set\",\"to\":\"operator address to set the approval\"}},\"supportsInterface(bytes4)\":{\"details\":\"See `IERC165.supportsInterface`.     * Time complexity O(1), guaranteed to always use less than 30 000 gas.\"},\"symbol()\":{\"details\":\"Gets the token symbol.\",\"return\":\"string representing the token symbol\"},\"tokenByIndex(uint256)\":{\"details\":\"Gets the token ID at a given index of all the tokens in this contract Reverts if the index is greater or equal to the total number of tokens.\",\"params\":{\"index\":\"uint256 representing the index to be accessed of the tokens list\"},\"return\":\"uint256 token ID at the given index of the tokens list\"},\"tokenOfOwnerByIndex(address,uint256)\":{\"details\":\"Gets the token ID at a given index of the tokens list of the requested owner.\",\"params\":{\"index\":\"uint256 representing the index to be accessed of the requested tokens list\",\"owner\":\"address owning the tokens list to be accessed\"},\"return\":\"uint256 token ID at the given index of the tokens list owned by the requested address\"},\"tokenURI(uint256)\":{\"details\":\"Returns an URI for a given token ID. Throws if the token ID does not exist. May return an empty string.\",\"params\":{\"tokenId\":\"uint256 ID of the token to query\"}},\"totalSupply()\":{\"details\":\"Gets the total amount of tokens stored by the contract.\",\"return\":\"uint256 representing the total amount of tokens\"},\"transferFrom(address,address,uint256)\":{\"details\":\"Transfers the ownership of a given token ID to another address. Usage of this method is discouraged, use `safeTransferFrom` whenever possible. Requires the msg.sender to be the owner, approved, or operator.\",\"params\":{\"from\":\"current owner of the token\",\"to\":\"address to receive the ownership of the given token ID\",\"tokenId\":\"uint256 ID of the token to be transferred\"}}}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/hetzer/Documents/GitHub/CryptoMonsters/contracts/CryptoMonsters.sol\":\"CryptoMonsters\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/hetzer/Documents/GitHub/CryptoMonsters/contracts/CryptoMonsters.sol\":{\"keccak256\":\"0xab3e9ecadc075d19777abd6a175dfe75383103b6e28c3b98b63fa8f0077fbcc1\",\"urls\":[\"bzzr://5840ba2ec486a8add07f09963ca270aa3f1c0ce9e336dd4c5afe7ff51d77cb4e\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzzr://bd34c1ce05b5b2b3a62fc02e160f6805b1cadd476854664f433c685b2fda8dad\"]},\"openzeppelin-solidity/contracts/access/roles/MinterRole.sol\":{\"keccak256\":\"0x63da54a7a5d4e4d82ac8d1f4f7f995fd8ef2b5fe1f2960b83e534fa37fb60910\",\"urls\":[\"bzzr://cea53b805426e40efadb24f2613aca39182462e9ecd23fde7aacf0c4b5885aaf\"]},\"openzeppelin-solidity/contracts/drafts/Counters.sol\":{\"keccak256\":\"0x5eb69360d3441ab2ee799bd7c007cccbffb0896f12b2dfe1456193e2aa180a11\",\"urls\":[\"bzzr://ecd0352164978c418c8f5b0080c972b65e4b07f6afc593fb7cdd856185a458ea\"]},\"openzeppelin-solidity/contracts/introspection/ERC165.sol\":{\"keccak256\":\"0xac2eacd7e7762e275442f28f21d821544df5aae2ed7698af13be8c41b7005e2e\",\"urls\":[\"bzzr://43e901f6f210568ebc1d3591da3ce6a9d10796b854767a9c6e3da10305a8a332\"]},\"openzeppelin-solidity/contracts/introspection/IERC165.sol\":{\"keccak256\":\"0x661553e43d7c4fbb2de504e5999fd5c104d367488350ed5bf023031bd1ba5ac5\",\"urls\":[\"bzzr://fc2ba15143ce3a00268ecd15fc98eb2469b18bfe27a64bbab0ac6446f161c739\"]},\"openzeppelin-solidity/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x4ccf2d7b51873db1ccfd54ca2adae5eac3b184f9699911ed4490438419f1c690\",\"urls\":[\"bzzr://1604f5b6d6e916c154efd8c6720cda069e5ba32dfa0a9dedf2b42e5b02d07f89\"]},\"openzeppelin-solidity/contracts/token/ERC721/ERC721.sol\":{\"keccak256\":\"0xf151df411bbf4eaef1fc8e8480cd10c2cd985f1a36517e63981517610213efc1\",\"urls\":[\"bzzr://9bca20c0c1208be8f31fc7a73faccd2fca4c5f84dc0a432ae2e066970551db34\"]},\"openzeppelin-solidity/contracts/token/ERC721/ERC721Enumerable.sol\":{\"keccak256\":\"0xb42cb5a7471d98114af8f7050e7d08dfd543f432713a8aee72a45ce9485f5bed\",\"urls\":[\"bzzr://b0d4d8eb319d67dc4b5def23d48a84806dcd6492782c176309da449903e58766\"]},\"openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol\":{\"keccak256\":\"0x908d0d6fd8d30cffb1fe9fce1f7db6802cb885fbe88d2f170539e8dcc6afa946\",\"urls\":[\"bzzr://691f4df66b5aa95410d8205f7afcd90e5f066d13513392ab797b2c9ce2f4f669\"]},\"openzeppelin-solidity/contracts/token/ERC721/ERC721Metadata.sol\":{\"keccak256\":\"0xe5e28b1a405164faa98f8ecd8ed2b00907b89e3d58b2b2bb8ac8b12bc5714489\",\"urls\":[\"bzzr://5a804c3710e9eca0a111db4536b0c5d23bf4a66734a9856f3df2992900ed8f28\"]},\"openzeppelin-solidity/contracts/token/ERC721/ERC721Mintable.sol\":{\"keccak256\":\"0x4c77825e3ce795c18c96af2985f702eff03dc660b25026b2754d90b64058f6ab\",\"urls\":[\"bzzr://3e8f76912935d64c6cf6b3209cb81858c3abea8b91fca68a7bfd1a005fdefd42\"]},\"openzeppelin-solidity/contracts/token/ERC721/IERC721.sol\":{\"keccak256\":\"0xce48937a8007c580b8e2e35705738c922dd17540de89ebee6df06d2917a3f9fc\",\"urls\":[\"bzzr://de494d3843e2c151aa108782382720b5d9f4531f0aa620a4244ca12fc1f8a780\"]},\"openzeppelin-solidity/contracts/token/ERC721/IERC721Enumerable.sol\":{\"keccak256\":\"0x5c573acd6c7b98d71f3c1c44d63dc17400b0fd7b26a52c9fded43b8b533dc4ec\",\"urls\":[\"bzzr://8f483b76debd9f5948c445dcb83dac4c8b4881218776a6cd43ca07bd62f647de\"]},\"openzeppelin-solidity/contracts/token/ERC721/IERC721Metadata.sol\":{\"keccak256\":\"0x2b2b99dc7fe8fcd1f9427d00822b99cbc683dc21f5dd7532bd7e2281fd2c2ca2\",\"urls\":[\"bzzr://b89c69b072072e7fa1c8da973f82c7b28a64fb6bdc1e47626fedc89050ae783c\"]},\"openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol\":{\"keccak256\":\"0xadbfb7028fb0f851dc848a48b9e54e7c89ffd2c2edc12fa4ba9bb383dfaa83d9\",\"urls\":[\"bzzr://2466b6491600969dd9ffdeb0b705e7cecc38418aa215cec64b2481273bba9076\"]},\"openzeppelin-solidity/contracts/utils/Address.sol\":{\"keccak256\":\"0xf3358e5819ca73357abd6c90bdfffd0474af54364897f6b3e3234c4b71fbe9a1\",\"urls\":[\"bzzr://f7f6da60a184233fd666ac44e6fb2bd51ca6ebdc4867a310d368049aa4e62786\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"getApproved\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"to\",\"type\":\"address\"},{\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"from\",\"type\":\"address\"},{\"name\":\"to\",\"type\":\"address\"},{\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_monsterId\",\"type\":\"uint256\"},{\"name\":\"_targetId\",\"type\":\"uint256\"}],\"name\":\"battle\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"owner\",\"type\":\"address\"},{\"name\":\"index\",\"type\":\"uint256\"}],\"name\":\"tokenOfOwnerByIndex\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"to\",\"type\":\"address\"},{\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"mint\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"from\",\"type\":\"address\"},{\"name\":\"to\",\"type\":\"address\"},{\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"safeTransferFrom\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"index\",\"type\":\"uint256\"}],\"name\":\"tokenByIndex\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"ownerOf\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addMinter\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceMinter\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"to\",\"type\":\"address\"},{\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"setApprovalForAll\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isMinter\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_name\",\"type\":\"string\"},{\"name\":\"_level\",\"type\":\"uint256\"},{\"name\":\"_attackPower\",\"type\":\"uint256\"},{\"name\":\"_defensePower\",\"type\":\"uint256\"},{\"name\":\"_to\",\"type\":\"address\"}],\"name\":\"createMonster\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"from\",\"type\":\"address\"},{\"name\":\"to\",\"type\":\"address\"},{\"name\":\"tokenId\",\"type\":\"uint256\"},{\"name\":\"_data\",\"type\":\"bytes\"}],\"name\":\"safeTransferFrom\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"monsters\",\"outputs\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"level\",\"type\":\"uint256\"},{\"name\":\"attackPower\",\"type\":\"uint256\"},{\"name\":\"defensePower\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"tokenURI\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"owner\",\"type\":\"address\"},{\"name\":\"operator\",\"type\":\"address\"}],\"name\":\"isApprovedForAll\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"MinterAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"MinterRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"to\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"approved\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"Approval\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"operator\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"ApprovalForAll\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{\"approve(address,uint256)\":{\"details\":\"Approves another address to transfer the given token ID The zero address indicates there is no approved address. There can only be one approved address per token at a given time. Can only be called by the token owner or an approved operator.\",\"params\":{\"to\":\"address to be approved for the given token ID\",\"tokenId\":\"uint256 ID of the token to be approved\"}},\"balanceOf(address)\":{\"details\":\"Gets the balance of the specified address.\",\"params\":{\"owner\":\"address to query the balance of\"},\"return\":\"uint256 representing the amount owned by the passed address\"},\"getApproved(uint256)\":{\"details\":\"Gets the approved address for a token ID, or zero if no address set Reverts if the token ID does not exist.\",\"params\":{\"tokenId\":\"uint256 ID of the token to query the approval of\"},\"return\":\"address currently approved for the given token ID\"},\"isApprovedForAll(address,address)\":{\"details\":\"Tells whether an operator is approved by a given owner.\",\"params\":{\"operator\":\"operator address which you want to query the approval of\",\"owner\":\"owner address which you want to query the approval of\"},\"return\":\"bool whether the given operator is approved by the given owner\"},\"mint(address,uint256)\":{\"details\":\"Function to mint tokens.\",\"params\":{\"to\":\"The address that will receive the minted tokens.\",\"tokenId\":\"The token id to mint.\"},\"return\":\"A boolean that indicates if the operation was successful.\"},\"name()\":{\"details\":\"Gets the token name.\",\"return\":\"string representing the token name\"},\"ownerOf(uint256)\":{\"details\":\"Gets the owner of the specified token ID.\",\"params\":{\"tokenId\":\"uint256 ID of the token to query the owner of\"},\"return\":\"address currently marked as the owner of the given token ID\"},\"safeTransferFrom(address,address,uint256)\":{\"details\":\"Safely transfers the ownership of a given token ID to another address If the target address is a contract, it must implement `onERC721Received`, which is called upon a safe transfer, and return the magic value `bytes4(keccak256(\\\"onERC721Received(address,address,uint256,bytes)\\\"))`; otherwise, the transfer is reverted. Requires the msg.sender to be the owner, approved, or operator\",\"params\":{\"from\":\"current owner of the token\",\"to\":\"address to receive the ownership of the given token ID\",\"tokenId\":\"uint256 ID of the token to be transferred\"}},\"safeTransferFrom(address,address,uint256,bytes)\":{\"details\":\"Safely transfers the ownership of a given token ID to another address If the target address is a contract, it must implement `onERC721Received`, which is called upon a safe transfer, and return the magic value `bytes4(keccak256(\\\"onERC721Received(address,address,uint256,bytes)\\\"))`; otherwise, the transfer is reverted. Requires the msg.sender to be the owner, approved, or operator\",\"params\":{\"_data\":\"bytes data to send along with a safe transfer check\",\"from\":\"current owner of the token\",\"to\":\"address to receive the ownership of the given token ID\",\"tokenId\":\"uint256 ID of the token to be transferred\"}},\"setApprovalForAll(address,bool)\":{\"details\":\"Sets or unsets the approval of a given operator An operator is allowed to transfer all tokens of the sender on their behalf.\",\"params\":{\"approved\":\"representing the status of the approval to be set\",\"to\":\"operator address to set the approval\"}},\"supportsInterface(bytes4)\":{\"details\":\"See `IERC165.supportsInterface`.     * Time complexity O(1), guaranteed to always use less than 30 000 gas.\"},\"symbol()\":{\"details\":\"Gets the token symbol.\",\"return\":\"string representing the token symbol\"},\"tokenByIndex(uint256)\":{\"details\":\"Gets the token ID at a given index of all the tokens in this contract Reverts if the index is greater or equal to the total number of tokens.\",\"params\":{\"index\":\"uint256 representing the index to be accessed of the tokens list\"},\"return\":\"uint256 token ID at the given index of the tokens list\"},\"tokenOfOwnerByIndex(address,uint256)\":{\"details\":\"Gets the token ID at a given index of the tokens list of the requested owner.\",\"params\":{\"index\":\"uint256 representing the index to be accessed of the requested tokens list\",\"owner\":\"address owning the tokens list to be accessed\"},\"return\":\"uint256 token ID at the given index of the tokens list owned by the requested address\"},\"tokenURI(uint256)\":{\"details\":\"Returns an URI for a given token ID. Throws if the token ID does not exist. May return an empty string.\",\"params\":{\"tokenId\":\"uint256 ID of the token to query\"}},\"totalSupply()\":{\"details\":\"Gets the total amount of tokens stored by the contract.\",\"return\":\"uint256 representing the total amount of tokens\"},\"transferFrom(address,address,uint256)\":{\"details\":\"Transfers the ownership of a given token ID to another address. Usage of this method is discouraged, use `safeTransferFrom` whenever possible. Requires the msg.sender to be the owner, approved, or operator.\",\"params\":{\"from\":\"current owner of the token\",\"to\":\"address to receive the ownership of the given token ID\",\"tokenId\":\"uint256 ID of the token to be transferred\"}}}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/hetzer/Documents/GitHub/CryptoMonsters/contracts/CryptoMonsters.sol\":\"CryptoMonsters\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/hetzer/Documents/GitHub/CryptoMonsters/contracts/CryptoMonsters.sol\":{\"keccak256\":\"0x158345761e06228a850bd1e79d406b2c459ac400c6a2eadc6e07190f4a1215a6\",\"urls\":[\"bzzr://8d9c96833dac915bf01a5dfad219a80229e6585ba8d34a35a87b24693c1379ea\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzzr://bd34c1ce05b5b2b3a62fc02e160f6805b1cadd476854664f433c685b2fda8dad\"]},\"openzeppelin-solidity/contracts/access/roles/MinterRole.sol\":{\"keccak256\":\"0x63da54a7a5d4e4d82ac8d1f4f7f995fd8ef2b5fe1f2960b83e534fa37fb60910\",\"urls\":[\"bzzr://cea53b805426e40efadb24f2613aca39182462e9ecd23fde7aacf0c4b5885aaf\"]},\"openzeppelin-solidity/contracts/drafts/Counters.sol\":{\"keccak256\":\"0x5eb69360d3441ab2ee799bd7c007cccbffb0896f12b2dfe1456193e2aa180a11\",\"urls\":[\"bzzr://ecd0352164978c418c8f5b0080c972b65e4b07f6afc593fb7cdd856185a458ea\"]},\"openzeppelin-solidity/contracts/introspection/ERC165.sol\":{\"keccak256\":\"0xac2eacd7e7762e275442f28f21d821544df5aae2ed7698af13be8c41b7005e2e\",\"urls\":[\"bzzr://43e901f6f210568ebc1d3591da3ce6a9d10796b854767a9c6e3da10305a8a332\"]},\"openzeppelin-solidity/contracts/introspection/IERC165.sol\":{\"keccak256\":\"0x661553e43d7c4fbb2de504e5999fd5c104d367488350ed5bf023031bd1ba5ac5\",\"urls\":[\"bzzr://fc2ba15143ce3a00268ecd15fc98eb2469b18bfe27a64bbab0ac6446f161c739\"]},\"openzeppelin-solidity/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x4ccf2d7b51873db1ccfd54ca2adae5eac3b184f9699911ed4490438419f1c690\",\"urls\":[\"bzzr://1604f5b6d6e916c154efd8c6720cda069e5ba32dfa0a9dedf2b42e5b02d07f89\"]},\"openzeppelin-solidity/contracts/token/ERC721/ERC721.sol\":{\"keccak256\":\"0xf151df411bbf4eaef1fc8e8480cd10c2cd985f1a36517e63981517610213efc1\",\"urls\":[\"bzzr://9bca20c0c1208be8f31fc7a73faccd2fca4c5f84dc0a432ae2e066970551db34\"]},\"openzeppelin-solidity/contracts/token/ERC721/ERC721Enumerable.sol\":{\"keccak256\":\"0xb42cb5a7471d98114af8f7050e7d08dfd543f432713a8aee72a45ce9485f5bed\",\"urls\":[\"bzzr://b0d4d8eb319d67dc4b5def23d48a84806dcd6492782c176309da449903e58766\"]},\"openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol\":{\"keccak256\":\"0x908d0d6fd8d30cffb1fe9fce1f7db6802cb885fbe88d2f170539e8dcc6afa946\",\"urls\":[\"bzzr://691f4df66b5aa95410d8205f7afcd90e5f066d13513392ab797b2c9ce2f4f669\"]},\"openzeppelin-solidity/contracts/token/ERC721/ERC721Metadata.sol\":{\"keccak256\":\"0xe5e28b1a405164faa98f8ecd8ed2b00907b89e3d58b2b2bb8ac8b12bc5714489\",\"urls\":[\"bzzr://5a804c3710e9eca0a111db4536b0c5d23bf4a66734a9856f3df2992900ed8f28\"]},\"openzeppelin-solidity/contracts/token/ERC721/ERC721Mintable.sol\":{\"keccak256\":\"0x4c77825e3ce795c18c96af2985f702eff03dc660b25026b2754d90b64058f6ab\",\"urls\":[\"bzzr://3e8f76912935d64c6cf6b3209cb81858c3abea8b91fca68a7bfd1a005fdefd42\"]},\"openzeppelin-solidity/contracts/token/ERC721/IERC721.sol\":{\"keccak256\":\"0xce48937a8007c580b8e2e35705738c922dd17540de89ebee6df06d2917a3f9fc\",\"urls\":[\"bzzr://de494d3843e2c151aa108782382720b5d9f4531f0aa620a4244ca12fc1f8a780\"]},\"openzeppelin-solidity/contracts/token/ERC721/IERC721Enumerable.sol\":{\"keccak256\":\"0x5c573acd6c7b98d71f3c1c44d63dc17400b0fd7b26a52c9fded43b8b533dc4ec\",\"urls\":[\"bzzr://8f483b76debd9f5948c445dcb83dac4c8b4881218776a6cd43ca07bd62f647de\"]},\"openzeppelin-solidity/contracts/token/ERC721/IERC721Metadata.sol\":{\"keccak256\":\"0x2b2b99dc7fe8fcd1f9427d00822b99cbc683dc21f5dd7532bd7e2281fd2c2ca2\",\"urls\":[\"bzzr://b89c69b072072e7fa1c8da973f82c7b28a64fb6bdc1e47626fedc89050ae783c\"]},\"openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol\":{\"keccak256\":\"0xadbfb7028fb0f851dc848a48b9e54e7c89ffd2c2edc12fa4ba9bb383dfaa83d9\",\"urls\":[\"bzzr://2466b6491600969dd9ffdeb0b705e7cecc38418aa215cec64b2481273bba9076\"]},\"openzeppelin-solidity/contracts/utils/Address.sol\":{\"keccak256\":\"0xf3358e5819ca73357abd6c90bdfffd0474af54364897f6b3e3234c4b71fbe9a1\",\"urls\":[\"bzzr://f7f6da60a184233fd666ac44e6fb2bd51ca6ebdc4867a310d368049aa4e62786\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
-  "source": "pragma solidity ^0.5.0;\r\n\r\nimport 'openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol';\r\nimport 'openzeppelin-solidity/contracts/token/ERC721/ERC721Mintable.sol';\r\n\r\ncontract CryptoMonsters is ERC721Full, ERC721Mintable {\r\n\r\n    struct Monster {\r\n        string name;\r\n        uint256 level;\r\n        uint256 attackPower;\r\n        uint256 defensePower;\r\n    }\r\n    Monster[] public monsters; //    mapping (address => Monsters) monsters;\r\n    address public owner;\r\n\r\n    constructor() public {\r\n        //Only the owner can create crypto monster\r\n        owner = msg.sender;\r\n    }\r\n    /**\r\n   * @dev Guarantees msg.sender is owner of the given token\r\n   * @param _tokenId uint256 ID of the token to validate its ownership belongs to msg.sender\r\n   */\r\n    modifier onlyOwnerOf(uint256 _tokenId) {\r\n        require(ownerOf(_tokenId) == msg.sender);\r\n        _;\r\n    }\r\n\r\n    function createMonster(string memory _name, uint256 _level, uint256 _attackPower,uint256 _defensePower, address _to) public {\r\n        require(owner == msg.sender);\r\n        uint256 id =  monsters.length;\r\n        monsters.push(Monster(_name, _level, _attackPower, _defensePower));\r\n        _mint(_to, id);\r\n    }\r\n\r\n    function battle(uint256 _monsterId, uint256 _targetId) onlyOwnerOf(_monsterId) public {\r\n        Monster storage monster1 = monsters[_monsterId];\r\n        Monster storage monster2 = monsters[_targetId];\r\n    }\r\n}\r\n",
+  "source": "pragma solidity ^0.5.0;\r\n\r\nimport 'openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol';\r\nimport 'openzeppelin-solidity/contracts/token/ERC721/ERC721Mintable.sol';\r\n\r\ncontract CryptoMonsters is ERC721Full, ERC721Mintable {\r\n\r\n    struct Monster {\r\n        string name;\r\n        uint256 level;\r\n        uint256 attackPower;\r\n        uint256 defensePower;\r\n    }\r\n\r\n    Monster[] public monsters; \r\n    address public owner;\r\n\r\n    constructor() public {\r\n        //Only the owner can create crypto monster\r\n        owner = msg.sender;\r\n    }\r\n    /**\r\n   * @dev Guarantees msg.sender is owner of the given token\r\n   * @param _tokenId uint256 ID of the token to validate its ownership belongs to msg.sender\r\n   */\r\n    modifier onlyOwnerOf(uint256 _tokenId) {\r\n        require(ownerOf(_tokenId) == msg.sender);\r\n        _;\r\n    }\r\n\r\n    function createMonster(string memory _name, uint256 _level, uint256 _attackPower,uint256 _defensePower, address _to) public {\r\n        require(owner == msg.sender);\r\n\r\n        //Monster stats requirements\r\n        require(_level >= 1);\r\n        require(_attackPower >= 1);\r\n        require(_defensePower >= 1);\r\n        uint256 id =  monsters.length;\r\n\r\n        monsters.push(Monster(_name, _level, _attackPower, _defensePower));\r\n        _mint(_to, id);\r\n    }\r\n\r\n    function battle(uint256 _monsterId, uint256 _targetId) onlyOwnerOf(_monsterId) public {\r\n        Monster storage monster1 = monsters[_monsterId];\r\n        Monster storage monster2 = monsters[_targetId];\r\n        \r\n        if(monster1.attackPower >= monster2.attackPower) {\r\n            monster1.level += 1;\r\n            monster1.attackPower += 10;\r\n\r\n        }\r\n        else {\r\n            monster2.level += 1;\r\n            monster2.attackPower += 10;\r\n        }\r\n    }\r\n}\r\n",
   "sourcePath": "C:/Users/hetzer/Documents/GitHub/CryptoMonsters/contracts/CryptoMonsters.sol",
   "ast": {
     "absolutePath": "/C/Users/hetzer/Documents/GitHub/CryptoMonsters/contracts/CryptoMonsters.sol",
     "exportedSymbols": {
       "CryptoMonsters": [
-        111
+        161
       ]
     },
-    "id": 112,
+    "id": 162,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -597,8 +597,8 @@
         "file": "openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol",
         "id": 2,
         "nodeType": "ImportDirective",
-        "scope": 112,
-        "sourceUnit": 1524,
+        "scope": 162,
+        "sourceUnit": 1574,
         "src": "27:69:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -608,8 +608,8 @@
         "file": "openzeppelin-solidity/contracts/token/ERC721/ERC721Mintable.sol",
         "id": 3,
         "nodeType": "ImportDirective",
-        "scope": 112,
-        "sourceUnit": 1681,
+        "scope": 162,
+        "sourceUnit": 1731,
         "src": "98:73:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -623,10 +623,10 @@
               "id": 4,
               "name": "ERC721Full",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1523,
+              "referencedDeclaration": 1573,
               "src": "202:10:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721Full_$1523",
+                "typeIdentifier": "t_contract$_ERC721Full_$1573",
                 "typeString": "contract ERC721Full"
               }
             },
@@ -641,10 +641,10 @@
               "id": 6,
               "name": "ERC721Mintable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1680,
+              "referencedDeclaration": 1730,
               "src": "214:14:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721Mintable_$1680",
+                "typeIdentifier": "t_contract$_ERC721Mintable_$1730",
                 "typeString": "contract ERC721Mintable"
               }
             },
@@ -654,35 +654,35 @@
           }
         ],
         "contractDependencies": [
-          353,
-          454,
-          464,
-          1162,
-          1499,
-          1523,
-          1652,
-          1680,
-          1783,
-          1810,
-          1833
+          403,
+          504,
+          514,
+          1212,
+          1549,
+          1573,
+          1702,
+          1730,
+          1833,
+          1860,
+          1883
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 111,
+        "id": 161,
         "linearizedBaseContracts": [
-          111,
-          1680,
-          353,
-          1523,
-          1652,
+          161,
+          1730,
+          403,
+          1573,
+          1702,
+          1883,
+          1549,
+          1860,
+          1212,
           1833,
-          1499,
-          1810,
-          1162,
-          1783,
-          454,
-          464
+          504,
+          514
         ],
         "name": "CryptoMonsters",
         "nodeType": "ContractDefinition",
@@ -798,7 +798,7 @@
             ],
             "name": "Monster",
             "nodeType": "StructDefinition",
-            "scope": 111,
+            "scope": 161,
             "src": "238:130:0",
             "visibility": "public"
           },
@@ -807,8 +807,8 @@
             "id": 19,
             "name": "monsters",
             "nodeType": "VariableDeclaration",
-            "scope": 111,
-            "src": "374:25:0",
+            "scope": 161,
+            "src": "376:25:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -822,7 +822,7 @@
                 "name": "Monster",
                 "nodeType": "UserDefinedTypeName",
                 "referencedDeclaration": 16,
-                "src": "374:7:0",
+                "src": "376:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
                   "typeString": "struct CryptoMonsters.Monster"
@@ -831,7 +831,7 @@
               "id": 18,
               "length": null,
               "nodeType": "ArrayTypeName",
-              "src": "374:9:0",
+              "src": "376:9:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_array$_t_struct$_Monster_$16_storage_$dyn_storage_ptr",
                 "typeString": "struct CryptoMonsters.Monster[]"
@@ -845,8 +845,8 @@
             "id": 21,
             "name": "owner",
             "nodeType": "VariableDeclaration",
-            "scope": 111,
-            "src": "452:20:0",
+            "scope": 161,
+            "src": "409:20:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -857,7 +857,7 @@
               "id": 20,
               "name": "address",
               "nodeType": "ElementaryTypeName",
-              "src": "452:7:0",
+              "src": "409:7:0",
               "stateMutability": "nonpayable",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
@@ -871,7 +871,7 @@
             "body": {
               "id": 29,
               "nodeType": "Block",
-              "src": "502:89:0",
+              "src": "459:89:0",
               "statements": [
                 {
                   "expression": {
@@ -888,7 +888,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 21,
-                      "src": "565:5:0",
+                      "src": "522:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -904,8 +904,8 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1883,
-                        "src": "573:3:0",
+                        "referencedDeclaration": 1933,
+                        "src": "530:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
@@ -919,13 +919,13 @@
                       "memberName": "sender",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "573:10:0",
+                      "src": "530:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address_payable",
                         "typeString": "address payable"
                       }
                     },
-                    "src": "565:18:0",
+                    "src": "522:18:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -933,7 +933,7 @@
                   },
                   "id": 28,
                   "nodeType": "ExpressionStatement",
-                  "src": "565:18:0"
+                  "src": "522:18:0"
                 }
               ]
             },
@@ -948,16 +948,16 @@
               "id": 22,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "492:2:0"
+              "src": "449:2:0"
             },
             "returnParameters": {
               "id": 23,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "502:0:0"
+              "src": "459:0:0"
             },
-            "scope": 111,
-            "src": "481:110:0",
+            "scope": 161,
+            "src": "438:110:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -966,7 +966,7 @@
             "body": {
               "id": 44,
               "nodeType": "Block",
-              "src": "807:71:0",
+              "src": "764:71:0",
               "statements": [
                 {
                   "expression": {
@@ -993,7 +993,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 32,
-                              "src": "834:8:0",
+                              "src": "791:8:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -1011,10 +1011,10 @@
                             "name": "ownerOf",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              698
+                              748
                             ],
-                            "referencedDeclaration": 698,
-                            "src": "826:7:0",
+                            "referencedDeclaration": 748,
+                            "src": "783:7:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$_t_uint256_$returns$_t_address_$",
                               "typeString": "function (uint256) view returns (address)"
@@ -1028,7 +1028,7 @@
                           "lValueRequested": false,
                           "names": [],
                           "nodeType": "FunctionCall",
-                          "src": "826:17:0",
+                          "src": "783:17:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1044,8 +1044,8 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1883,
-                            "src": "847:3:0",
+                            "referencedDeclaration": 1933,
+                            "src": "804:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -1059,13 +1059,13 @@
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "847:10:0",
+                          "src": "804:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address_payable",
                             "typeString": "address payable"
                           }
                         },
-                        "src": "826:31:0",
+                        "src": "783:31:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1083,11 +1083,11 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1886,
-                        1887
+                        1936,
+                        1937
                       ],
-                      "referencedDeclaration": 1886,
-                      "src": "818:7:0",
+                      "referencedDeclaration": 1936,
+                      "src": "775:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
@@ -1101,7 +1101,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "818:40:0",
+                    "src": "775:40:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -1109,12 +1109,12 @@
                   },
                   "id": 42,
                   "nodeType": "ExpressionStatement",
-                  "src": "818:40:0"
+                  "src": "775:40:0"
                 },
                 {
                   "id": 43,
                   "nodeType": "PlaceholderStatement",
-                  "src": "869:1:0"
+                  "src": "826:1:0"
                 }
               ]
             },
@@ -1132,7 +1132,7 @@
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
                   "scope": 45,
-                  "src": "789:16:0",
+                  "src": "746:16:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1143,7 +1143,7 @@
                     "id": 31,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "789:7:0",
+                    "src": "746:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1153,16 +1153,16 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "788:18:0"
+              "src": "745:18:0"
             },
-            "src": "768:110:0",
+            "src": "725:110:0",
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 86,
+              "id": 104,
               "nodeType": "Block",
-              "src": "1010:189:0",
+              "src": "967:337:0",
               "statements": [
                 {
                   "expression": {
@@ -1186,7 +1186,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 21,
-                          "src": "1029:5:0",
+                          "src": "986:5:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1202,8 +1202,8 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1883,
-                            "src": "1038:3:0",
+                            "referencedDeclaration": 1933,
+                            "src": "995:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -1217,13 +1217,13 @@
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "1038:10:0",
+                          "src": "995:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address_payable",
                             "typeString": "address payable"
                           }
                         },
-                        "src": "1029:19:0",
+                        "src": "986:19:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1241,11 +1241,11 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1886,
-                        1887
+                        1936,
+                        1937
                       ],
-                      "referencedDeclaration": 1886,
-                      "src": "1021:7:0",
+                      "referencedDeclaration": 1936,
+                      "src": "978:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
@@ -1259,7 +1259,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1021:28:0",
+                    "src": "978:28:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -1267,20 +1267,302 @@
                   },
                   "id": 64,
                   "nodeType": "ExpressionStatement",
-                  "src": "1021:28:0"
+                  "src": "978:28:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 68,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 66,
+                          "name": "_level",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 49,
+                          "src": "1065:6:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">=",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "hexValue": "31",
+                          "id": 67,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1075:1:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          },
+                          "value": "1"
+                        },
+                        "src": "1065:11:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "id": 65,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        1936,
+                        1937
+                      ],
+                      "referencedDeclaration": 1936,
+                      "src": "1057:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
+                        "typeString": "function (bool) pure"
+                      }
+                    },
+                    "id": 69,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1057:20:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 70,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1057:20:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 74,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 72,
+                          "name": "_attackPower",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 51,
+                          "src": "1096:12:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">=",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "hexValue": "31",
+                          "id": 73,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1112:1:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          },
+                          "value": "1"
+                        },
+                        "src": "1096:17:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "id": 71,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        1936,
+                        1937
+                      ],
+                      "referencedDeclaration": 1936,
+                      "src": "1088:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
+                        "typeString": "function (bool) pure"
+                      }
+                    },
+                    "id": 75,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1088:26:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 76,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1088:26:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 80,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 78,
+                          "name": "_defensePower",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 53,
+                          "src": "1133:13:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">=",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "hexValue": "31",
+                          "id": 79,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1150:1:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          },
+                          "value": "1"
+                        },
+                        "src": "1133:18:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "id": 77,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        1936,
+                        1937
+                      ],
+                      "referencedDeclaration": 1936,
+                      "src": "1125:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
+                        "typeString": "function (bool) pure"
+                      }
+                    },
+                    "id": 81,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1125:27:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 82,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1125:27:0"
                 },
                 {
                   "assignments": [
-                    66
+                    84
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 66,
+                      "id": 84,
                       "name": "id",
                       "nodeType": "VariableDeclaration",
-                      "scope": 86,
-                      "src": "1060:10:0",
+                      "scope": 104,
+                      "src": "1163:10:0",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -1288,10 +1570,10 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 65,
+                        "id": 83,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
-                        "src": "1060:7:0",
+                        "src": "1163:7:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1301,23 +1583,23 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 69,
+                  "id": 87,
                   "initialValue": {
                     "argumentTypes": null,
                     "expression": {
                       "argumentTypes": null,
-                      "id": 67,
+                      "id": 85,
                       "name": "monsters",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 19,
-                      "src": "1074:8:0",
+                      "src": "1177:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_struct$_Monster_$16_storage_$dyn_storage",
                         "typeString": "struct CryptoMonsters.Monster storage ref[] storage ref"
                       }
                     },
-                    "id": 68,
+                    "id": 86,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
@@ -1325,14 +1607,14 @@
                     "memberName": "length",
                     "nodeType": "MemberAccess",
                     "referencedDeclaration": null,
-                    "src": "1074:15:0",
+                    "src": "1177:15:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1060:29:0"
+                  "src": "1163:29:0"
                 },
                 {
                   "expression": {
@@ -1343,12 +1625,12 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 74,
+                            "id": 92,
                             "name": "_name",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 47,
-                            "src": "1122:5:0",
+                            "src": "1227:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_string_memory_ptr",
                               "typeString": "string memory"
@@ -1356,12 +1638,12 @@
                           },
                           {
                             "argumentTypes": null,
-                            "id": 75,
+                            "id": 93,
                             "name": "_level",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 49,
-                            "src": "1129:6:0",
+                            "src": "1234:6:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1369,12 +1651,12 @@
                           },
                           {
                             "argumentTypes": null,
-                            "id": 76,
+                            "id": 94,
                             "name": "_attackPower",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 51,
-                            "src": "1137:12:0",
+                            "src": "1242:12:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1382,12 +1664,12 @@
                           },
                           {
                             "argumentTypes": null,
-                            "id": 77,
+                            "id": 95,
                             "name": "_defensePower",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 53,
-                            "src": "1151:13:0",
+                            "src": "1256:13:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1413,18 +1695,18 @@
                               "typeString": "uint256"
                             }
                           ],
-                          "id": 73,
+                          "id": 91,
                           "name": "Monster",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 16,
-                          "src": "1114:7:0",
+                          "src": "1219:7:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_type$_t_struct$_Monster_$16_storage_ptr_$",
                             "typeString": "type(struct CryptoMonsters.Monster storage pointer)"
                           }
                         },
-                        "id": 78,
+                        "id": 96,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1432,7 +1714,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "1114:51:0",
+                        "src": "1219:51:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Monster_$16_memory",
                           "typeString": "struct CryptoMonsters.Monster memory"
@@ -1448,18 +1730,18 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 70,
+                        "id": 88,
                         "name": "monsters",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 19,
-                        "src": "1100:8:0",
+                        "src": "1205:8:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_struct$_Monster_$16_storage_$dyn_storage",
                           "typeString": "struct CryptoMonsters.Monster storage ref[] storage ref"
                         }
                       },
-                      "id": 72,
+                      "id": 90,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1467,13 +1749,13 @@
                       "memberName": "push",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1100:13:0",
+                      "src": "1205:13:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_arraypush_nonpayable$_t_struct$_Monster_$16_storage_$returns$_t_uint256_$",
                         "typeString": "function (struct CryptoMonsters.Monster storage ref) returns (uint256)"
                       }
                     },
-                    "id": 79,
+                    "id": 97,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1481,15 +1763,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1100:66:0",
+                    "src": "1205:66:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 80,
+                  "id": 98,
                   "nodeType": "ExpressionStatement",
-                  "src": "1100:66:0"
+                  "src": "1205:66:0"
                 },
                 {
                   "expression": {
@@ -1497,12 +1779,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 82,
+                        "id": 100,
                         "name": "_to",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 55,
-                        "src": "1183:3:0",
+                        "src": "1288:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1510,12 +1792,12 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 83,
+                        "id": 101,
                         "name": "id",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 66,
-                        "src": "1188:2:0",
+                        "referencedDeclaration": 84,
+                        "src": "1293:2:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1533,20 +1815,20 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 81,
+                      "id": 99,
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1306
+                        1356
                       ],
-                      "referencedDeclaration": 1306,
-                      "src": "1177:5:0",
+                      "referencedDeclaration": 1356,
+                      "src": "1282:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,uint256)"
                       }
                     },
-                    "id": 84,
+                    "id": 102,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1554,20 +1836,20 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1177:14:0",
+                    "src": "1282:14:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 85,
+                  "id": 103,
                   "nodeType": "ExpressionStatement",
-                  "src": "1177:14:0"
+                  "src": "1282:14:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 87,
+            "id": 105,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -1582,8 +1864,8 @@
                   "id": 47,
                   "name": "_name",
                   "nodeType": "VariableDeclaration",
-                  "scope": 87,
-                  "src": "909:19:0",
+                  "scope": 105,
+                  "src": "866:19:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1594,7 +1876,7 @@
                     "id": 46,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "909:6:0",
+                    "src": "866:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -1608,8 +1890,8 @@
                   "id": 49,
                   "name": "_level",
                   "nodeType": "VariableDeclaration",
-                  "scope": 87,
-                  "src": "930:14:0",
+                  "scope": 105,
+                  "src": "887:14:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1620,7 +1902,7 @@
                     "id": 48,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "930:7:0",
+                    "src": "887:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1634,8 +1916,8 @@
                   "id": 51,
                   "name": "_attackPower",
                   "nodeType": "VariableDeclaration",
-                  "scope": 87,
-                  "src": "946:20:0",
+                  "scope": 105,
+                  "src": "903:20:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1646,7 +1928,7 @@
                     "id": 50,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "946:7:0",
+                    "src": "903:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1660,8 +1942,8 @@
                   "id": 53,
                   "name": "_defensePower",
                   "nodeType": "VariableDeclaration",
-                  "scope": 87,
-                  "src": "967:21:0",
+                  "scope": 105,
+                  "src": "924:21:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1672,7 +1954,7 @@
                     "id": 52,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "967:7:0",
+                    "src": "924:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1686,8 +1968,8 @@
                   "id": 55,
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 87,
-                  "src": "990:11:0",
+                  "scope": 105,
+                  "src": "947:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1698,7 +1980,7 @@
                     "id": 54,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "990:7:0",
+                    "src": "947:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1709,38 +1991,38 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "908:94:0"
+              "src": "865:94:0"
             },
             "returnParameters": {
               "id": 57,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1010:0:0"
+              "src": "967:0:0"
             },
-            "scope": 111,
-            "src": "886:313:0",
+            "scope": 161,
+            "src": "843:461:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 109,
+              "id": 159,
               "nodeType": "Block",
-              "src": "1293:123:0",
+              "src": "1398:383:0",
               "statements": [
                 {
                   "assignments": [
-                    98
+                    116
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 98,
+                      "id": 116,
                       "name": "monster1",
                       "nodeType": "VariableDeclaration",
-                      "scope": 109,
-                      "src": "1304:24:0",
+                      "scope": 159,
+                      "src": "1409:24:0",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
@@ -1749,11 +2031,11 @@
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 97,
+                        "id": 115,
                         "name": "Monster",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 16,
-                        "src": "1304:7:0",
+                        "src": "1409:7:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
                           "typeString": "struct CryptoMonsters.Monster"
@@ -1763,31 +2045,31 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 102,
+                  "id": 120,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 99,
+                      "id": 117,
                       "name": "monsters",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 19,
-                      "src": "1331:8:0",
+                      "src": "1436:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_struct$_Monster_$16_storage_$dyn_storage",
                         "typeString": "struct CryptoMonsters.Monster storage ref[] storage ref"
                       }
                     },
-                    "id": 101,
+                    "id": 119,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 100,
+                      "id": 118,
                       "name": "_monsterId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 89,
-                      "src": "1340:10:0",
+                      "referencedDeclaration": 107,
+                      "src": "1445:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1798,27 +2080,27 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "1331:20:0",
+                    "src": "1436:20:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Monster_$16_storage",
                       "typeString": "struct CryptoMonsters.Monster storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1304:47:0"
+                  "src": "1409:47:0"
                 },
                 {
                   "assignments": [
-                    104
+                    122
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 104,
+                      "id": 122,
                       "name": "monster2",
                       "nodeType": "VariableDeclaration",
-                      "scope": 109,
-                      "src": "1362:24:0",
+                      "scope": 159,
+                      "src": "1467:24:0",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
@@ -1827,11 +2109,11 @@
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 103,
+                        "id": 121,
                         "name": "Monster",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 16,
-                        "src": "1362:7:0",
+                        "src": "1467:7:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
                           "typeString": "struct CryptoMonsters.Monster"
@@ -1841,31 +2123,31 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 108,
+                  "id": 126,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 105,
+                      "id": 123,
                       "name": "monsters",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 19,
-                      "src": "1389:8:0",
+                      "src": "1494:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_struct$_Monster_$16_storage_$dyn_storage",
                         "typeString": "struct CryptoMonsters.Monster storage ref[] storage ref"
                       }
                     },
-                    "id": 107,
+                    "id": 125,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 106,
+                      "id": 124,
                       "name": "_targetId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 91,
-                      "src": "1398:9:0",
+                      "referencedDeclaration": 109,
+                      "src": "1503:9:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1876,19 +2158,383 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "1389:19:0",
+                    "src": "1494:19:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Monster_$16_storage",
                       "typeString": "struct CryptoMonsters.Monster storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1362:46:0"
+                  "src": "1467:46:0"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 131,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 127,
+                        "name": "monster1",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 116,
+                        "src": "1537:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
+                          "typeString": "struct CryptoMonsters.Monster storage pointer"
+                        }
+                      },
+                      "id": 128,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "attackPower",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 13,
+                      "src": "1537:20:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": ">=",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 129,
+                        "name": "monster2",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 122,
+                        "src": "1561:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
+                          "typeString": "struct CryptoMonsters.Monster storage pointer"
+                        }
+                      },
+                      "id": 130,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "attackPower",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 13,
+                      "src": "1561:20:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "1537:44:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": {
+                    "id": 157,
+                    "nodeType": "Block",
+                    "src": "1687:87:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 149,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 145,
+                              "name": "monster2",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 122,
+                              "src": "1702:8:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
+                                "typeString": "struct CryptoMonsters.Monster storage pointer"
+                              }
+                            },
+                            "id": 147,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "memberName": "level",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 11,
+                            "src": "1702:14:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "+=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "hexValue": "31",
+                            "id": 148,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "1720:1:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_rational_1_by_1",
+                              "typeString": "int_const 1"
+                            },
+                            "value": "1"
+                          },
+                          "src": "1702:19:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 150,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1702:19:0"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 155,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 151,
+                              "name": "monster2",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 122,
+                              "src": "1736:8:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
+                                "typeString": "struct CryptoMonsters.Monster storage pointer"
+                              }
+                            },
+                            "id": 153,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "memberName": "attackPower",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 13,
+                            "src": "1736:20:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "+=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "hexValue": "3130",
+                            "id": 154,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "1760:2:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_rational_10_by_1",
+                              "typeString": "int_const 10"
+                            },
+                            "value": "10"
+                          },
+                          "src": "1736:26:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 156,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1736:26:0"
+                      }
+                    ]
+                  },
+                  "id": 158,
+                  "nodeType": "IfStatement",
+                  "src": "1534:240:0",
+                  "trueBody": {
+                    "id": 144,
+                    "nodeType": "Block",
+                    "src": "1583:89:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 136,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 132,
+                              "name": "monster1",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 116,
+                              "src": "1598:8:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
+                                "typeString": "struct CryptoMonsters.Monster storage pointer"
+                              }
+                            },
+                            "id": 134,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "memberName": "level",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 11,
+                            "src": "1598:14:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "+=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "hexValue": "31",
+                            "id": 135,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "1616:1:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_rational_1_by_1",
+                              "typeString": "int_const 1"
+                            },
+                            "value": "1"
+                          },
+                          "src": "1598:19:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 137,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1598:19:0"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 142,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 138,
+                              "name": "monster1",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 116,
+                              "src": "1632:8:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
+                                "typeString": "struct CryptoMonsters.Monster storage pointer"
+                              }
+                            },
+                            "id": 140,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "memberName": "attackPower",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 13,
+                            "src": "1632:20:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "+=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "hexValue": "3130",
+                            "id": 141,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "1656:2:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_rational_10_by_1",
+                              "typeString": "int_const 10"
+                            },
+                            "value": "10"
+                          },
+                          "src": "1632:26:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 143,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1632:26:0"
+                      }
+                    ]
+                  }
                 }
               ]
             },
             "documentation": null,
-            "id": 110,
+            "id": 160,
             "implemented": true,
             "kind": "function",
             "modifiers": [
@@ -1896,49 +2542,49 @@
                 "arguments": [
                   {
                     "argumentTypes": null,
-                    "id": 94,
+                    "id": 112,
                     "name": "_monsterId",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 89,
-                    "src": "1274:10:0",
+                    "referencedDeclaration": 107,
+                    "src": "1379:10:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   }
                 ],
-                "id": 95,
+                "id": 113,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 93,
+                  "id": 111,
                   "name": "onlyOwnerOf",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
                   "referencedDeclaration": 45,
-                  "src": "1262:11:0",
+                  "src": "1367:11:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$_t_uint256_$",
                     "typeString": "modifier (uint256)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "1262:23:0"
+                "src": "1367:23:0"
               }
             ],
             "name": "battle",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 92,
+              "id": 110,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 89,
+                  "id": 107,
                   "name": "_monsterId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 110,
-                  "src": "1223:18:0",
+                  "scope": 160,
+                  "src": "1328:18:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1946,10 +2592,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 88,
+                    "id": 106,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1223:7:0",
+                    "src": "1328:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1960,11 +2606,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 91,
+                  "id": 109,
                   "name": "_targetId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 110,
-                  "src": "1243:17:0",
+                  "scope": 160,
+                  "src": "1348:17:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1972,10 +2618,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 90,
+                    "id": 108,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1243:7:0",
+                    "src": "1348:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1985,35 +2631,35 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1222:39:0"
+              "src": "1327:39:0"
             },
             "returnParameters": {
-              "id": 96,
+              "id": 114,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1293:0:0"
+              "src": "1398:0:0"
             },
-            "scope": 111,
-            "src": "1207:209:0",
+            "scope": 161,
+            "src": "1312:469:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 112,
-        "src": "175:1244:0"
+        "scope": 162,
+        "src": "175:1609:0"
       }
     ],
-    "src": "0:1421:0"
+    "src": "0:1786:0"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/hetzer/Documents/GitHub/CryptoMonsters/contracts/CryptoMonsters.sol",
     "exportedSymbols": {
       "CryptoMonsters": [
-        111
+        161
       ]
     },
-    "id": 112,
+    "id": 162,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -2032,8 +2678,8 @@
         "file": "openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol",
         "id": 2,
         "nodeType": "ImportDirective",
-        "scope": 112,
-        "sourceUnit": 1524,
+        "scope": 162,
+        "sourceUnit": 1574,
         "src": "27:69:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2043,8 +2689,8 @@
         "file": "openzeppelin-solidity/contracts/token/ERC721/ERC721Mintable.sol",
         "id": 3,
         "nodeType": "ImportDirective",
-        "scope": 112,
-        "sourceUnit": 1681,
+        "scope": 162,
+        "sourceUnit": 1731,
         "src": "98:73:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2058,10 +2704,10 @@
               "id": 4,
               "name": "ERC721Full",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1523,
+              "referencedDeclaration": 1573,
               "src": "202:10:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721Full_$1523",
+                "typeIdentifier": "t_contract$_ERC721Full_$1573",
                 "typeString": "contract ERC721Full"
               }
             },
@@ -2076,10 +2722,10 @@
               "id": 6,
               "name": "ERC721Mintable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1680,
+              "referencedDeclaration": 1730,
               "src": "214:14:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721Mintable_$1680",
+                "typeIdentifier": "t_contract$_ERC721Mintable_$1730",
                 "typeString": "contract ERC721Mintable"
               }
             },
@@ -2089,35 +2735,35 @@
           }
         ],
         "contractDependencies": [
-          353,
-          454,
-          464,
-          1162,
-          1499,
-          1523,
-          1652,
-          1680,
-          1783,
-          1810,
-          1833
+          403,
+          504,
+          514,
+          1212,
+          1549,
+          1573,
+          1702,
+          1730,
+          1833,
+          1860,
+          1883
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 111,
+        "id": 161,
         "linearizedBaseContracts": [
-          111,
-          1680,
-          353,
-          1523,
-          1652,
+          161,
+          1730,
+          403,
+          1573,
+          1702,
+          1883,
+          1549,
+          1860,
+          1212,
           1833,
-          1499,
-          1810,
-          1162,
-          1783,
-          454,
-          464
+          504,
+          514
         ],
         "name": "CryptoMonsters",
         "nodeType": "ContractDefinition",
@@ -2233,7 +2879,7 @@
             ],
             "name": "Monster",
             "nodeType": "StructDefinition",
-            "scope": 111,
+            "scope": 161,
             "src": "238:130:0",
             "visibility": "public"
           },
@@ -2242,8 +2888,8 @@
             "id": 19,
             "name": "monsters",
             "nodeType": "VariableDeclaration",
-            "scope": 111,
-            "src": "374:25:0",
+            "scope": 161,
+            "src": "376:25:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2257,7 +2903,7 @@
                 "name": "Monster",
                 "nodeType": "UserDefinedTypeName",
                 "referencedDeclaration": 16,
-                "src": "374:7:0",
+                "src": "376:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
                   "typeString": "struct CryptoMonsters.Monster"
@@ -2266,7 +2912,7 @@
               "id": 18,
               "length": null,
               "nodeType": "ArrayTypeName",
-              "src": "374:9:0",
+              "src": "376:9:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_array$_t_struct$_Monster_$16_storage_$dyn_storage_ptr",
                 "typeString": "struct CryptoMonsters.Monster[]"
@@ -2280,8 +2926,8 @@
             "id": 21,
             "name": "owner",
             "nodeType": "VariableDeclaration",
-            "scope": 111,
-            "src": "452:20:0",
+            "scope": 161,
+            "src": "409:20:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2292,7 +2938,7 @@
               "id": 20,
               "name": "address",
               "nodeType": "ElementaryTypeName",
-              "src": "452:7:0",
+              "src": "409:7:0",
               "stateMutability": "nonpayable",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
@@ -2306,7 +2952,7 @@
             "body": {
               "id": 29,
               "nodeType": "Block",
-              "src": "502:89:0",
+              "src": "459:89:0",
               "statements": [
                 {
                   "expression": {
@@ -2323,7 +2969,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 21,
-                      "src": "565:5:0",
+                      "src": "522:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -2339,8 +2985,8 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1883,
-                        "src": "573:3:0",
+                        "referencedDeclaration": 1933,
+                        "src": "530:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
@@ -2354,13 +3000,13 @@
                       "memberName": "sender",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "573:10:0",
+                      "src": "530:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address_payable",
                         "typeString": "address payable"
                       }
                     },
-                    "src": "565:18:0",
+                    "src": "522:18:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -2368,7 +3014,7 @@
                   },
                   "id": 28,
                   "nodeType": "ExpressionStatement",
-                  "src": "565:18:0"
+                  "src": "522:18:0"
                 }
               ]
             },
@@ -2383,16 +3029,16 @@
               "id": 22,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "492:2:0"
+              "src": "449:2:0"
             },
             "returnParameters": {
               "id": 23,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "502:0:0"
+              "src": "459:0:0"
             },
-            "scope": 111,
-            "src": "481:110:0",
+            "scope": 161,
+            "src": "438:110:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -2401,7 +3047,7 @@
             "body": {
               "id": 44,
               "nodeType": "Block",
-              "src": "807:71:0",
+              "src": "764:71:0",
               "statements": [
                 {
                   "expression": {
@@ -2428,7 +3074,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 32,
-                              "src": "834:8:0",
+                              "src": "791:8:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -2446,10 +3092,10 @@
                             "name": "ownerOf",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              698
+                              748
                             ],
-                            "referencedDeclaration": 698,
-                            "src": "826:7:0",
+                            "referencedDeclaration": 748,
+                            "src": "783:7:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$_t_uint256_$returns$_t_address_$",
                               "typeString": "function (uint256) view returns (address)"
@@ -2463,7 +3109,7 @@
                           "lValueRequested": false,
                           "names": [],
                           "nodeType": "FunctionCall",
-                          "src": "826:17:0",
+                          "src": "783:17:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -2479,8 +3125,8 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1883,
-                            "src": "847:3:0",
+                            "referencedDeclaration": 1933,
+                            "src": "804:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -2494,13 +3140,13 @@
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "847:10:0",
+                          "src": "804:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address_payable",
                             "typeString": "address payable"
                           }
                         },
-                        "src": "826:31:0",
+                        "src": "783:31:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -2518,11 +3164,11 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1886,
-                        1887
+                        1936,
+                        1937
                       ],
-                      "referencedDeclaration": 1886,
-                      "src": "818:7:0",
+                      "referencedDeclaration": 1936,
+                      "src": "775:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
@@ -2536,7 +3182,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "818:40:0",
+                    "src": "775:40:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -2544,12 +3190,12 @@
                   },
                   "id": 42,
                   "nodeType": "ExpressionStatement",
-                  "src": "818:40:0"
+                  "src": "775:40:0"
                 },
                 {
                   "id": 43,
                   "nodeType": "PlaceholderStatement",
-                  "src": "869:1:0"
+                  "src": "826:1:0"
                 }
               ]
             },
@@ -2567,7 +3213,7 @@
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
                   "scope": 45,
-                  "src": "789:16:0",
+                  "src": "746:16:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2578,7 +3224,7 @@
                     "id": 31,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "789:7:0",
+                    "src": "746:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2588,16 +3234,16 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "788:18:0"
+              "src": "745:18:0"
             },
-            "src": "768:110:0",
+            "src": "725:110:0",
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 86,
+              "id": 104,
               "nodeType": "Block",
-              "src": "1010:189:0",
+              "src": "967:337:0",
               "statements": [
                 {
                   "expression": {
@@ -2621,7 +3267,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 21,
-                          "src": "1029:5:0",
+                          "src": "986:5:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -2637,8 +3283,8 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1883,
-                            "src": "1038:3:0",
+                            "referencedDeclaration": 1933,
+                            "src": "995:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -2652,13 +3298,13 @@
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "1038:10:0",
+                          "src": "995:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address_payable",
                             "typeString": "address payable"
                           }
                         },
-                        "src": "1029:19:0",
+                        "src": "986:19:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -2676,11 +3322,11 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1886,
-                        1887
+                        1936,
+                        1937
                       ],
-                      "referencedDeclaration": 1886,
-                      "src": "1021:7:0",
+                      "referencedDeclaration": 1936,
+                      "src": "978:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
@@ -2694,7 +3340,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1021:28:0",
+                    "src": "978:28:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -2702,20 +3348,302 @@
                   },
                   "id": 64,
                   "nodeType": "ExpressionStatement",
-                  "src": "1021:28:0"
+                  "src": "978:28:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 68,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 66,
+                          "name": "_level",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 49,
+                          "src": "1065:6:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">=",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "hexValue": "31",
+                          "id": 67,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1075:1:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          },
+                          "value": "1"
+                        },
+                        "src": "1065:11:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "id": 65,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        1936,
+                        1937
+                      ],
+                      "referencedDeclaration": 1936,
+                      "src": "1057:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
+                        "typeString": "function (bool) pure"
+                      }
+                    },
+                    "id": 69,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1057:20:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 70,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1057:20:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 74,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 72,
+                          "name": "_attackPower",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 51,
+                          "src": "1096:12:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">=",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "hexValue": "31",
+                          "id": 73,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1112:1:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          },
+                          "value": "1"
+                        },
+                        "src": "1096:17:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "id": 71,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        1936,
+                        1937
+                      ],
+                      "referencedDeclaration": 1936,
+                      "src": "1088:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
+                        "typeString": "function (bool) pure"
+                      }
+                    },
+                    "id": 75,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1088:26:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 76,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1088:26:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 80,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 78,
+                          "name": "_defensePower",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 53,
+                          "src": "1133:13:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">=",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "hexValue": "31",
+                          "id": 79,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1150:1:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          },
+                          "value": "1"
+                        },
+                        "src": "1133:18:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "id": 77,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        1936,
+                        1937
+                      ],
+                      "referencedDeclaration": 1936,
+                      "src": "1125:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
+                        "typeString": "function (bool) pure"
+                      }
+                    },
+                    "id": 81,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1125:27:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 82,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1125:27:0"
                 },
                 {
                   "assignments": [
-                    66
+                    84
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 66,
+                      "id": 84,
                       "name": "id",
                       "nodeType": "VariableDeclaration",
-                      "scope": 86,
-                      "src": "1060:10:0",
+                      "scope": 104,
+                      "src": "1163:10:0",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -2723,10 +3651,10 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 65,
+                        "id": 83,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
-                        "src": "1060:7:0",
+                        "src": "1163:7:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2736,23 +3664,23 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 69,
+                  "id": 87,
                   "initialValue": {
                     "argumentTypes": null,
                     "expression": {
                       "argumentTypes": null,
-                      "id": 67,
+                      "id": 85,
                       "name": "monsters",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 19,
-                      "src": "1074:8:0",
+                      "src": "1177:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_struct$_Monster_$16_storage_$dyn_storage",
                         "typeString": "struct CryptoMonsters.Monster storage ref[] storage ref"
                       }
                     },
-                    "id": 68,
+                    "id": 86,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
@@ -2760,14 +3688,14 @@
                     "memberName": "length",
                     "nodeType": "MemberAccess",
                     "referencedDeclaration": null,
-                    "src": "1074:15:0",
+                    "src": "1177:15:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1060:29:0"
+                  "src": "1163:29:0"
                 },
                 {
                   "expression": {
@@ -2778,12 +3706,12 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 74,
+                            "id": 92,
                             "name": "_name",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 47,
-                            "src": "1122:5:0",
+                            "src": "1227:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_string_memory_ptr",
                               "typeString": "string memory"
@@ -2791,12 +3719,12 @@
                           },
                           {
                             "argumentTypes": null,
-                            "id": 75,
+                            "id": 93,
                             "name": "_level",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 49,
-                            "src": "1129:6:0",
+                            "src": "1234:6:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -2804,12 +3732,12 @@
                           },
                           {
                             "argumentTypes": null,
-                            "id": 76,
+                            "id": 94,
                             "name": "_attackPower",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 51,
-                            "src": "1137:12:0",
+                            "src": "1242:12:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -2817,12 +3745,12 @@
                           },
                           {
                             "argumentTypes": null,
-                            "id": 77,
+                            "id": 95,
                             "name": "_defensePower",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 53,
-                            "src": "1151:13:0",
+                            "src": "1256:13:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -2848,18 +3776,18 @@
                               "typeString": "uint256"
                             }
                           ],
-                          "id": 73,
+                          "id": 91,
                           "name": "Monster",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 16,
-                          "src": "1114:7:0",
+                          "src": "1219:7:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_type$_t_struct$_Monster_$16_storage_ptr_$",
                             "typeString": "type(struct CryptoMonsters.Monster storage pointer)"
                           }
                         },
-                        "id": 78,
+                        "id": 96,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2867,7 +3795,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "1114:51:0",
+                        "src": "1219:51:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Monster_$16_memory",
                           "typeString": "struct CryptoMonsters.Monster memory"
@@ -2883,18 +3811,18 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 70,
+                        "id": 88,
                         "name": "monsters",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 19,
-                        "src": "1100:8:0",
+                        "src": "1205:8:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_struct$_Monster_$16_storage_$dyn_storage",
                           "typeString": "struct CryptoMonsters.Monster storage ref[] storage ref"
                         }
                       },
-                      "id": 72,
+                      "id": 90,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2902,13 +3830,13 @@
                       "memberName": "push",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1100:13:0",
+                      "src": "1205:13:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_arraypush_nonpayable$_t_struct$_Monster_$16_storage_$returns$_t_uint256_$",
                         "typeString": "function (struct CryptoMonsters.Monster storage ref) returns (uint256)"
                       }
                     },
-                    "id": 79,
+                    "id": 97,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2916,15 +3844,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1100:66:0",
+                    "src": "1205:66:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 80,
+                  "id": 98,
                   "nodeType": "ExpressionStatement",
-                  "src": "1100:66:0"
+                  "src": "1205:66:0"
                 },
                 {
                   "expression": {
@@ -2932,12 +3860,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 82,
+                        "id": 100,
                         "name": "_to",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 55,
-                        "src": "1183:3:0",
+                        "src": "1288:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2945,12 +3873,12 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 83,
+                        "id": 101,
                         "name": "id",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 66,
-                        "src": "1188:2:0",
+                        "referencedDeclaration": 84,
+                        "src": "1293:2:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2968,20 +3896,20 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 81,
+                      "id": 99,
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1306
+                        1356
                       ],
-                      "referencedDeclaration": 1306,
-                      "src": "1177:5:0",
+                      "referencedDeclaration": 1356,
+                      "src": "1282:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,uint256)"
                       }
                     },
-                    "id": 84,
+                    "id": 102,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2989,20 +3917,20 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1177:14:0",
+                    "src": "1282:14:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 85,
+                  "id": 103,
                   "nodeType": "ExpressionStatement",
-                  "src": "1177:14:0"
+                  "src": "1282:14:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 87,
+            "id": 105,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3017,8 +3945,8 @@
                   "id": 47,
                   "name": "_name",
                   "nodeType": "VariableDeclaration",
-                  "scope": 87,
-                  "src": "909:19:0",
+                  "scope": 105,
+                  "src": "866:19:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -3029,7 +3957,7 @@
                     "id": 46,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "909:6:0",
+                    "src": "866:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -3043,8 +3971,8 @@
                   "id": 49,
                   "name": "_level",
                   "nodeType": "VariableDeclaration",
-                  "scope": 87,
-                  "src": "930:14:0",
+                  "scope": 105,
+                  "src": "887:14:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3055,7 +3983,7 @@
                     "id": 48,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "930:7:0",
+                    "src": "887:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3069,8 +3997,8 @@
                   "id": 51,
                   "name": "_attackPower",
                   "nodeType": "VariableDeclaration",
-                  "scope": 87,
-                  "src": "946:20:0",
+                  "scope": 105,
+                  "src": "903:20:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3081,7 +4009,7 @@
                     "id": 50,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "946:7:0",
+                    "src": "903:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3095,8 +4023,8 @@
                   "id": 53,
                   "name": "_defensePower",
                   "nodeType": "VariableDeclaration",
-                  "scope": 87,
-                  "src": "967:21:0",
+                  "scope": 105,
+                  "src": "924:21:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3107,7 +4035,7 @@
                     "id": 52,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "967:7:0",
+                    "src": "924:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3121,8 +4049,8 @@
                   "id": 55,
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 87,
-                  "src": "990:11:0",
+                  "scope": 105,
+                  "src": "947:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3133,7 +4061,7 @@
                     "id": 54,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "990:7:0",
+                    "src": "947:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -3144,38 +4072,38 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "908:94:0"
+              "src": "865:94:0"
             },
             "returnParameters": {
               "id": 57,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1010:0:0"
+              "src": "967:0:0"
             },
-            "scope": 111,
-            "src": "886:313:0",
+            "scope": 161,
+            "src": "843:461:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 109,
+              "id": 159,
               "nodeType": "Block",
-              "src": "1293:123:0",
+              "src": "1398:383:0",
               "statements": [
                 {
                   "assignments": [
-                    98
+                    116
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 98,
+                      "id": 116,
                       "name": "monster1",
                       "nodeType": "VariableDeclaration",
-                      "scope": 109,
-                      "src": "1304:24:0",
+                      "scope": 159,
+                      "src": "1409:24:0",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
@@ -3184,11 +4112,11 @@
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 97,
+                        "id": 115,
                         "name": "Monster",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 16,
-                        "src": "1304:7:0",
+                        "src": "1409:7:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
                           "typeString": "struct CryptoMonsters.Monster"
@@ -3198,31 +4126,31 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 102,
+                  "id": 120,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 99,
+                      "id": 117,
                       "name": "monsters",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 19,
-                      "src": "1331:8:0",
+                      "src": "1436:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_struct$_Monster_$16_storage_$dyn_storage",
                         "typeString": "struct CryptoMonsters.Monster storage ref[] storage ref"
                       }
                     },
-                    "id": 101,
+                    "id": 119,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 100,
+                      "id": 118,
                       "name": "_monsterId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 89,
-                      "src": "1340:10:0",
+                      "referencedDeclaration": 107,
+                      "src": "1445:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -3233,27 +4161,27 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "1331:20:0",
+                    "src": "1436:20:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Monster_$16_storage",
                       "typeString": "struct CryptoMonsters.Monster storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1304:47:0"
+                  "src": "1409:47:0"
                 },
                 {
                   "assignments": [
-                    104
+                    122
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 104,
+                      "id": 122,
                       "name": "monster2",
                       "nodeType": "VariableDeclaration",
-                      "scope": 109,
-                      "src": "1362:24:0",
+                      "scope": 159,
+                      "src": "1467:24:0",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
@@ -3262,11 +4190,11 @@
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 103,
+                        "id": 121,
                         "name": "Monster",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 16,
-                        "src": "1362:7:0",
+                        "src": "1467:7:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
                           "typeString": "struct CryptoMonsters.Monster"
@@ -3276,31 +4204,31 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 108,
+                  "id": 126,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 105,
+                      "id": 123,
                       "name": "monsters",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 19,
-                      "src": "1389:8:0",
+                      "src": "1494:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_struct$_Monster_$16_storage_$dyn_storage",
                         "typeString": "struct CryptoMonsters.Monster storage ref[] storage ref"
                       }
                     },
-                    "id": 107,
+                    "id": 125,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 106,
+                      "id": 124,
                       "name": "_targetId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 91,
-                      "src": "1398:9:0",
+                      "referencedDeclaration": 109,
+                      "src": "1503:9:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -3311,19 +4239,383 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "1389:19:0",
+                    "src": "1494:19:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Monster_$16_storage",
                       "typeString": "struct CryptoMonsters.Monster storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1362:46:0"
+                  "src": "1467:46:0"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 131,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 127,
+                        "name": "monster1",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 116,
+                        "src": "1537:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
+                          "typeString": "struct CryptoMonsters.Monster storage pointer"
+                        }
+                      },
+                      "id": 128,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "attackPower",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 13,
+                      "src": "1537:20:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": ">=",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 129,
+                        "name": "monster2",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 122,
+                        "src": "1561:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
+                          "typeString": "struct CryptoMonsters.Monster storage pointer"
+                        }
+                      },
+                      "id": 130,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "attackPower",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 13,
+                      "src": "1561:20:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "1537:44:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": {
+                    "id": 157,
+                    "nodeType": "Block",
+                    "src": "1687:87:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 149,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 145,
+                              "name": "monster2",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 122,
+                              "src": "1702:8:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
+                                "typeString": "struct CryptoMonsters.Monster storage pointer"
+                              }
+                            },
+                            "id": 147,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "memberName": "level",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 11,
+                            "src": "1702:14:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "+=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "hexValue": "31",
+                            "id": 148,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "1720:1:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_rational_1_by_1",
+                              "typeString": "int_const 1"
+                            },
+                            "value": "1"
+                          },
+                          "src": "1702:19:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 150,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1702:19:0"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 155,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 151,
+                              "name": "monster2",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 122,
+                              "src": "1736:8:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
+                                "typeString": "struct CryptoMonsters.Monster storage pointer"
+                              }
+                            },
+                            "id": 153,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "memberName": "attackPower",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 13,
+                            "src": "1736:20:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "+=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "hexValue": "3130",
+                            "id": 154,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "1760:2:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_rational_10_by_1",
+                              "typeString": "int_const 10"
+                            },
+                            "value": "10"
+                          },
+                          "src": "1736:26:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 156,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1736:26:0"
+                      }
+                    ]
+                  },
+                  "id": 158,
+                  "nodeType": "IfStatement",
+                  "src": "1534:240:0",
+                  "trueBody": {
+                    "id": 144,
+                    "nodeType": "Block",
+                    "src": "1583:89:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 136,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 132,
+                              "name": "monster1",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 116,
+                              "src": "1598:8:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
+                                "typeString": "struct CryptoMonsters.Monster storage pointer"
+                              }
+                            },
+                            "id": 134,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "memberName": "level",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 11,
+                            "src": "1598:14:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "+=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "hexValue": "31",
+                            "id": 135,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "1616:1:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_rational_1_by_1",
+                              "typeString": "int_const 1"
+                            },
+                            "value": "1"
+                          },
+                          "src": "1598:19:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 137,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1598:19:0"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 142,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 138,
+                              "name": "monster1",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 116,
+                              "src": "1632:8:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_struct$_Monster_$16_storage_ptr",
+                                "typeString": "struct CryptoMonsters.Monster storage pointer"
+                              }
+                            },
+                            "id": 140,
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "memberName": "attackPower",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 13,
+                            "src": "1632:20:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "+=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "hexValue": "3130",
+                            "id": 141,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "1656:2:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_rational_10_by_1",
+                              "typeString": "int_const 10"
+                            },
+                            "value": "10"
+                          },
+                          "src": "1632:26:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 143,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1632:26:0"
+                      }
+                    ]
+                  }
                 }
               ]
             },
             "documentation": null,
-            "id": 110,
+            "id": 160,
             "implemented": true,
             "kind": "function",
             "modifiers": [
@@ -3331,49 +4623,49 @@
                 "arguments": [
                   {
                     "argumentTypes": null,
-                    "id": 94,
+                    "id": 112,
                     "name": "_monsterId",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 89,
-                    "src": "1274:10:0",
+                    "referencedDeclaration": 107,
+                    "src": "1379:10:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   }
                 ],
-                "id": 95,
+                "id": 113,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 93,
+                  "id": 111,
                   "name": "onlyOwnerOf",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
                   "referencedDeclaration": 45,
-                  "src": "1262:11:0",
+                  "src": "1367:11:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$_t_uint256_$",
                     "typeString": "modifier (uint256)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "1262:23:0"
+                "src": "1367:23:0"
               }
             ],
             "name": "battle",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 92,
+              "id": 110,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 89,
+                  "id": 107,
                   "name": "_monsterId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 110,
-                  "src": "1223:18:0",
+                  "scope": 160,
+                  "src": "1328:18:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3381,10 +4673,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 88,
+                    "id": 106,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1223:7:0",
+                    "src": "1328:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3395,11 +4687,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 91,
+                  "id": 109,
                   "name": "_targetId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 110,
-                  "src": "1243:17:0",
+                  "scope": 160,
+                  "src": "1348:17:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3407,10 +4699,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 90,
+                    "id": 108,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1243:7:0",
+                    "src": "1348:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3420,26 +4712,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1222:39:0"
+              "src": "1327:39:0"
             },
             "returnParameters": {
-              "id": 96,
+              "id": 114,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1293:0:0"
+              "src": "1398:0:0"
             },
-            "scope": 111,
-            "src": "1207:209:0",
+            "scope": 161,
+            "src": "1312:469:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 112,
-        "src": "175:1244:0"
+        "scope": 162,
+        "src": "175:1609:0"
       }
     ],
-    "src": "0:1421:0"
+    "src": "0:1786:0"
   },
   "compiler": {
     "name": "solc",
@@ -3447,7 +4739,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.10",
-  "updatedAt": "2019-06-24T17:34:37.073Z",
+  "updatedAt": "2019-06-24T21:31:26.523Z",
   "devdoc": {
     "methods": {
       "approve(address,uint256)": {

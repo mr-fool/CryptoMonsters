@@ -11,7 +11,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         uint256 attackPower;
         uint256 defensePower;
     }
-    
+
     Monster[] public monsters; 
     address public owner;
 
@@ -30,7 +30,14 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
 
     function createMonster(string memory _name, uint256 _level, uint256 _attackPower,uint256 _defensePower, address _to) public {
         require(owner == msg.sender);
+
+        //Monster stats requirements
+        require(_level >= 1);
+        require(_attackPower >= 1);
+        require(_defensePower >= 1);
+        
         uint256 id =  monsters.length;
+
         monsters.push(Monster(_name, _level, _attackPower, _defensePower));
         _mint(_to, id);
     }
@@ -38,5 +45,15 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
     function battle(uint256 _monsterId, uint256 _targetId) onlyOwnerOf(_monsterId) public {
         Monster storage monster1 = monsters[_monsterId];
         Monster storage monster2 = monsters[_targetId];
+        
+        if(monster1.attackPower >= monster2.attackPower) {
+            monster1.level += 1;
+            monster1.attackPower += 10;
+
+        }
+        else {
+            monster2.level += 1;
+            monster2.attackPower += 10;
+        }
     }
 }
