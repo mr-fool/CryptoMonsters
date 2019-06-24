@@ -7,11 +7,11 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
 
     struct Monster {
         string name;
-        uint level;
-        uint attackPower;
-        uint defensePower;
+        uint256 level;
+        uint256 attackPower;
+        uint256 defensePower;
     }
-    Monster[] public monsters;
+    Monster[] public monsters; //    mapping (address => Monsters) monsters;
     address public owner;
 
     constructor() public {
@@ -27,14 +27,14 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         _;
     }
 
-    function createMonster(string memory _name, uint _level, uint _attackPower,uint _defensePower, address _to) public {
+    function createMonster(string memory _name, uint256 _level, uint256 _attackPower,uint256 _defensePower, address _to) public {
         require(owner == msg.sender);
-        uint id =  monsters.length;
+        uint256 id =  monsters.length;
         monsters.push(Monster(_name, _level, _attackPower, _defensePower));
         _mint(_to, id);
     }
 
-    function battle(uint _monsterId, uint _targetId) onlyOwnerOf(_monsterId) public {
+    function battle(uint256 _monsterId, uint256 _targetId) onlyOwnerOf(_monsterId) public {
 
     }
 }
