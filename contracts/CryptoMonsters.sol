@@ -35,6 +35,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
     }
 
     function battle(uint256 _monsterId, uint256 _targetId) onlyOwnerOf(_monsterId) public {
-
+        Monster storage monster1 = monsters[_monsterId];
+        Monster storage monster2 = monsters[_targetId];
     }
 }
