@@ -12,6 +12,11 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         uint defensePower;
     }
     Monster[] public monsters;
-    
+    address public owner;
+
+    constructor CryptoMonsters() public{
+        //Only the owner can create crypto monster
+        owner = msg.sender;
+    }
 
 }
