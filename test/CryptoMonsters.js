@@ -7,7 +7,7 @@ beforeEach( async () => {
 
 });
 
-contract("CryptoMonsters", async accounts => {
+contract("CryptoMonsters", async () => {
     describe('createMonster', () => {
         it("Only sender can create monsters", async () => {
             let owner = instance.owner;
