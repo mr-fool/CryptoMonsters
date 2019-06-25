@@ -7,5 +7,5 @@ module.exports = function(deployer) {
     // contracts to the network
 
     // Deploy the contract to the network
-    deployer.deploy(CryptoMonsters);
+    deployer.deploy(CryptoMonsters, "CryptoMonsters", "CM");
 }

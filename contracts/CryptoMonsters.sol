@@ -3,7 +3,9 @@ pragma solidity ^0.5.0;
 import 'openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol';
 import 'openzeppelin-solidity/contracts/token/ERC721/ERC721Mintable.sol';
 
-contract CryptoMonsters is ERC721Full, ERC721Mintable {
+
+constructor(string memory _name , string memory _symbol)  public ERC721Full(_name, _symbol) {
+ {
 
     struct Monster {
         string name;
@@ -35,7 +37,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         require(_level >= 1);
         require(_attackPower >= 1);
         require(_defensePower >= 1);
-        
+
         uint256 id =  monsters.length;
 
         monsters.push(Monster(_name, _level, _attackPower, _defensePower));
