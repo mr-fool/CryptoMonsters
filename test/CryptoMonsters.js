@@ -10,7 +10,7 @@ beforeEach( async () => {
 contract("CryptoMonsters", async () => {
     describe('createMonster', () => {
         it("Only sender can create monsters", async () => {
-            let owner = instance.owner;
+            let owner = await instance.owner();
             assert.equal(owner, msg.sender, "owner is the msg.sender");
         });
     });
