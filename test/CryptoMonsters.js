@@ -25,6 +25,11 @@ contract("CryptoMonsters", async accounts  => {
                 assert.ok(error.message.indexOf('revert')>=0, 'attackPower check works');
             }
         });
+        it("Check if the monster is created", async() => {
+            testMonster1 = await instance.createMonster("testMonster1",1,1,1,accounts[1]);
+            testMonster2 = await instance.createMonster("testMonster2",1,1,1,accounts[1]);
+            assert.equal(instance.monsters(), 2, "two monsters have been successfully created");
+        });
     });
 
 
