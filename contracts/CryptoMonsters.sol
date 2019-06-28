@@ -19,6 +19,10 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         //Only the owner can create crypto monster
         owner = msg.sender;
     }
+
+    function getMonstersLength() public view returns (uint256) {
+        return monsters.length;
+    }
     /**
    * @dev Guarantees msg.sender is owner of the given token
    * @param _tokenId uint256 ID of the token to validate its ownership belongs to msg.sender
