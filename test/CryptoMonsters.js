@@ -28,7 +28,7 @@ contract("CryptoMonsters", async accounts  => {
         it("Check if the monster is created", async() => {
             testMonster1 = await instance.createMonster("testMonster1",1,1,1,accounts[1]);
             testMonster2 = await instance.createMonster("testMonster2",1,1,1,accounts[1]);
-            assert.equal(instance.monsters(), 2, "two monsters have been successfully created");
+            assert.equal(instance.monsters().length, 2, "two monsters have been successfully created");
         });
     });
 
