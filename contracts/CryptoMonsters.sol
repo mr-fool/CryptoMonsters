@@ -15,6 +15,8 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
 
     Monster[] public monsters; 
     address public owner;
+    mapping(string => Monster) public monsterName;
+
 
     constructor(string memory _name , string memory _symbol) public ERC721Full(_name, _symbol) {
         //Only the owner can create crypto monster
@@ -61,7 +63,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
             monster2.attackPower += 10;
         }
     }
-    function fusion(uint256 _monsterId1, uint256 _monsterId2 ) public{
+    function fusion(uint256 _monsterId1, uint256 _monsterId2, string memory _fusionMonsterName ) public{
         //Anymore that owns the monstercan fuse the monster
         require(uint160(msg.sender) == uint160(monsters[_monsterId1].monsterOwner) & uint160(monsters[_monsterId2].monsterOwner));
     }
