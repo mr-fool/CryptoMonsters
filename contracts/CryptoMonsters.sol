@@ -56,13 +56,13 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         Monster storage monster2 = monsters[_targetId];
         
         //Win Case
-        if(monster1.attackPower > monster2.attackPower) {
+        if(monster1.attackPower > monster2.defensePower) {
             monster1.level += 1;
             monster1.attackPower += 10;
 
         }
         //Draw Case
-        if(monster1.attackPower == monster2.attackPower) {
+        if(monster1.attackPower == monster2.defensePower) {
             
             monster2.defensePower += 10;
 
