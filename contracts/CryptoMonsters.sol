@@ -15,7 +15,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
 
     Monster[] public monsters; 
     address public owner;
-    mapping(bytes32 => bool) public monsterName;
+    mapping(bytes32 => bool) public usedName;
 
 
     constructor(string memory _name , string memory _symbol) public ERC721Full(_name, _symbol) {
@@ -46,6 +46,8 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         uint256 id =  monsters.length;
 
         monsters.push(Monster(_name, _level, _attackPower, _defensePower, _to));
+        //Mark off monster name
+        usedName[monsters] = true;
         _mint(_to, id);
     }
 
