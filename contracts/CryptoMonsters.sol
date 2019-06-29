@@ -47,7 +47,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
 
         monsters.push(Monster(_name, _level, _attackPower, _defensePower, _to));
         //Mark off monster name
-        usedName[monsters] = true;
+        usedName[keccak256(abi.encodePacked(name))] = true;
         _mint(_to, id);
     }
 
@@ -71,6 +71,6 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         //Require both monsters to have a combine level of 5 or above
         require(monsters[_monsterId1].level + monsters[_monsterId2].level >= 5);
         //Checking to see if the monster name already exist or not
-        //require(keccak256(abi.encodePacked((monsterName))) != keccak256(abi.encodePacked((_fusionMonsterName))));
+        require(!usedNames[keccak256(abi.encodePacked(name))]);
     }
 }
