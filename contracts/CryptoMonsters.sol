@@ -15,7 +15,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
 
     Monster[] public monsters; 
     address public owner;
-    mapping(bytes32 => bool) public usedName;
+    mapping(bytes32 => bool) public usedNames;
 
 
     constructor(string memory _name , string memory _symbol) public ERC721Full(_name, _symbol) {
@@ -47,7 +47,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
 
         monsters.push(Monster(_name, _level, _attackPower, _defensePower, _to));
         //Mark off monster name
-        usedName[keccak256(abi.encodePacked(name))] = true;
+        usedNames[keccak256(abi.encodePacked(_name))] = true;
         _mint(_to, id);
     }
 
@@ -55,11 +55,19 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         Monster storage monster1 = monsters[_monsterId];
         Monster storage monster2 = monsters[_targetId];
         
-        if(monster1.attackPower >= monster2.attackPower) {
+        //Win Case
+        if(monster1.attackPower > monster2.attackPower) {
             monster1.level += 1;
             monster1.attackPower += 10;
 
         }
+        //Draw Case
+        if(monster1.attackPower == monster2.attackPower) {
+            
+            monster2.defensePower += 10;
+
+        }
+        //Lost Case
         else {
             monster2.level += 1;
             monster2.attackPower += 10;
