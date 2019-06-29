@@ -61,7 +61,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
             monster2.attackPower += 10;
         }
     }
-    function fusion(uint256 _monsterId1, uint256 _monsterId2 ){
+    function fusion(uint256 _monsterId1, uint256 _monsterId2 ) public{
         //Anymore that owns the monstercan fuse the monster
         require(uint160(msg.sender) == uint160(monsters[_monsterId1].monsterOwner) & uint160(monsters[_monsterId2].monsterOwner));
     }
