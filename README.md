@@ -32,3 +32,7 @@ Draw 5 times:
 
 Defeat 5 times:
 -feel the wraith of eel-sama
+
+Fusion
+
+-Require two monsters and combined level of 5
