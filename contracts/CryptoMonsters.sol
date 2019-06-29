@@ -66,7 +66,9 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
     function fusion(uint256 _monsterId1, uint256 _monsterId2, string memory _fusionMonsterName ) public{
         //Anymore that owns the monstercan fuse the monster
         require(uint160(msg.sender) == uint160(monsters[_monsterId1].monsterOwner) & uint160(monsters[_monsterId2].monsterOwner));
+        //Require both monsters to have a combine level of 5 or above
+        require(monsters[_monsterId1].level + monsters[_monsterId2].level >= 5);
         //Checking to see if the monster name already exist or not
-        require(keccak256(abi.encodePacked((monsterName))) != keccak256(abi.encodePacked((_fusionMonsterName))));
+        //require(keccak256(abi.encodePacked((monsterName))) != keccak256(abi.encodePacked((_fusionMonsterName))));
     }
 }
