@@ -2,7 +2,6 @@ pragma solidity ^0.5.0;
 
 import 'openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol';
 import 'openzeppelin-solidity/contracts/token/ERC721/ERC721Mintable.sol';
-import 'openzeppelin-solidity/contracts/drafts/Counters.sol';
 
 contract CryptoMonsters is ERC721Full, ERC721Mintable {
 
@@ -18,6 +17,10 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
     address public owner;
     mapping(bytes32 => bool) public usedNames;
 
+    //Counter
+    mapping (address => uint256) public win;
+    mapping (address => uint256) public draw;
+    mapping (address => uint256) public lost;
 
     constructor(string memory _name , string memory _symbol) public ERC721Full(_name, _symbol) {
         //Only the owner can create crypto monster
