@@ -22,6 +22,9 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
     mapping (address => uint256) public draw;
     mapping (address => uint256) public lost;
 
+    //Cool down counter
+    uint256 public coolTime;
+
     constructor(string memory _name , string memory _symbol) public ERC721Full(_name, _symbol) {
         //Only the owner can create crypto monster
         owner = msg.sender;
@@ -86,5 +89,19 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         require(monsters[_monsterId1].level + monsters[_monsterId2].level >= 5);
         //Checking to see if the monster name already exist or not
         require(!usedNames[keccak256(abi.encodePacked(_fusionMonsterName))]);
+
+        //Calculating fusion Monster stats
+        uint256 _fusionMonsterAttackPower;
+        if ( monsters[_monsterId1].attackPower > monsters[_monsterId2].attackPower ) {
+            _fusionMonsterAttackPower = monsters[_monsterId1].attackPower + 10;
+        }
+        else {
+            _fusionMonsterAttackPower = monsters[_monsterId2].attackPower + 10;
+        }
+        //createMonster(_fusionMonsterName, uint256 _level, _fusionMonsterAttackPower,uint256 _defensePower, msg.sender);
+        
+        //30 mins before the user can fuse again
+        coolTime = block.timestamp + 1800; 
+        require(block.timestamp >= coolTime);
     }
 }
