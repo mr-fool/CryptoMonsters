@@ -37,7 +37,10 @@ contract("CryptoMonsters", async accounts  => {
             testMonster1 = await instance.createMonster("testMonster1",1,2,1,accounts[1]);
             testMonster2 = await instance.createMonster("testMonster2",1,1,1,accounts[0]);
             battlePhrase = await instance.battle(testMonster1, testMonster2);
+
+
             //Check the win
+            let win = await instance.win();
             assert.equal(win[accounts[1]], 1, "It is a win");
         });
     });
