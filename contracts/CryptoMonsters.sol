@@ -116,7 +116,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
             _fusionMonsterLevel = monsters[_monsterId2].level + 1;
         }
 
-        createMonster(_fusionMonsterName, uint256 _level, _fusionMonsterAttackPower, _fusionMonsterDefensePower, msg.sender);
+        createMonster(_fusionMonsterName, _fusionMonsterLevel, _fusionMonsterAttackPower, _fusionMonsterDefensePower, msg.sender);
         
         //30 mins before the user can fuse again
         coolTime = block.timestamp + 1800; 
