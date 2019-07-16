@@ -66,6 +66,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         if(monster1.attackPower > monster2.defensePower) {
             monster1.level += 1;
             monster1.attackPower += 10;
+            monster1.defensePower += 10;
             win[ownerOf(_monsterId)]++;
         }
         //Draw Case
@@ -92,13 +93,30 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
 
         //Calculating fusion Monster stats
         uint256 _fusionMonsterAttackPower;
-        if ( monsters[_monsterId1].attackPower > monsters[_monsterId2].attackPower ) {
+        if ( monsters[_monsterId1].attackPower <= monsters[_monsterId2].attackPower ) {
             _fusionMonsterAttackPower = monsters[_monsterId1].attackPower + 10;
         }
         else {
             _fusionMonsterAttackPower = monsters[_monsterId2].attackPower + 10;
         }
-        //createMonster(_fusionMonsterName, uint256 _level, _fusionMonsterAttackPower,uint256 _defensePower, msg.sender);
+
+        uint256 _fusionMonsterDefensePower;
+        if ( monsters[_monsterId1].defensePower <= monsters[_monsterId2].defensePower ) {
+            _fusionMonsterDefensePower = monsters[_monsterId1].defensePower + 10;
+        }
+        else {
+            _fusionMonsterDefensePower = monsters[_monsterId2].defensePower + 10;
+        }
+
+        uint256 _fusionMonsterLevel;
+        if ( monsters[_monsterId1].level <= monsters[_monsterId2].level ) {
+            _fusionMonsterLevel = monsters[_monsterId1].level + 1;
+        }
+        else {
+            _fusionMonsterLevel = monsters[_monsterId2].level + 1;
+        }
+
+        createMonster(_fusionMonsterName, uint256 _level, _fusionMonsterAttackPower, _fusionMonsterDefensePower, msg.sender);
         
         //30 mins before the user can fuse again
         coolTime = block.timestamp + 1800; 
