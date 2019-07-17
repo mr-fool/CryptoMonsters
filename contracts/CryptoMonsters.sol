@@ -23,7 +23,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
     mapping (address => uint256) public lost;
 
     //Cool down counter
-    uint256 public coolTime;
+    mapping (address => uint256) public coolTime;
 
     constructor(string memory _name , string memory _symbol) public ERC721Full(_name, _symbol) {
         //Only the owner can create crypto monster
@@ -119,7 +119,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         createMonster(_fusionMonsterName, _fusionMonsterLevel, _fusionMonsterAttackPower, _fusionMonsterDefensePower, msg.sender);
         
         //30 mins before the user can fuse again
-        coolTime = block.timestamp + 1800; 
+        coolTime[msg.sender] = block.timestamp + 1800;
         require(block.timestamp >= coolTime);
     }
 }
