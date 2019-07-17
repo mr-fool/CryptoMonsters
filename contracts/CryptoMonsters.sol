@@ -120,6 +120,6 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         
         //30 mins before the user can fuse again
         coolTime[msg.sender] = block.timestamp + 1800;
-        require(block.timestamp >= coolTime);
+        require(block.timestamp >= coolTime[msg.sender]);
     }
 }
