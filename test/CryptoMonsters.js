@@ -36,7 +36,7 @@ contract("CryptoMonsters", async accounts  => {
             let battlePhrase;
             testMonster1 = await instance.createMonster("testMonster1",1,2,1,accounts[0]).id();
             testMonster2 = await instance.createMonster("testMonster2",1,1,1,accounts[1]);
-            //console.log(testMonster1.id);
+            console.log(testMonster1.id);
             //battlePhrase = await instance.battle(testMonster1, testMonster2);
 
 
