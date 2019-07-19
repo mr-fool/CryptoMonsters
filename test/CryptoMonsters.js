@@ -35,9 +35,12 @@ contract("CryptoMonsters", async accounts  => {
         it("Check the win case", async()=> {
             let battlePhrase;
             //testMonster3 = await instance.createMonster("testMonster3",1,2,1,accounts[0]);
-            const { logs } = await instance.createMonster("testMonster3", 1 , 2, 1, accounts[0], { from: accounts[0] });
-            console.log(logs.event);
-            testMonster4 = await instance.createMonster("testMonster4",1,1,1,accounts[1]);
+            let { logs } = await instance.createMonster("testMonster3", 1 , 2, 1, accounts[0], { from: accounts[0] });
+            let testMonster3Id = logs[1].args._MonsterID.toNumber();
+            console.log(testMonster3Id);
+            { logs } = await instance.createMonster("testMonster4",1,1,1,accounts[1]);
+            let testMonster4Id = logs[1].args._MonsterID.toNumber();
+            console.log(testMonster4Id);
             //battlePhrase = await instance.battle(3, 4);
 
 
