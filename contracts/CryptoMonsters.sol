@@ -4,6 +4,8 @@ import 'openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol';
 import 'openzeppelin-solidity/contracts/token/ERC721/ERC721Mintable.sol';
 
 contract CryptoMonsters is ERC721Full, ERC721Mintable {
+    
+    event MonsterCreated(uint256 _MonsterID);
 
     struct Monster {
         string name;
@@ -57,6 +59,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         //Mark off monster name
         usedNames[keccak256(abi.encodePacked(_name))] = true;
         _mint(_to, id);
+        emit MonsterCreated(id);
         return id;
     }
 
