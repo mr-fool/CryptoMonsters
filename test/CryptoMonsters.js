@@ -34,19 +34,20 @@ contract("CryptoMonsters", async accounts  => {
 
         it("Check the win case", async()=> {
             let battlePhrase;
-            //testMonster3 = await instance.createMonster("testMonster3",1,2,1,accounts[0]);
-            let { logs } = await instance.createMonster("testMonster3", 1 , 2, 1, accounts[0], { from: accounts[0] });
-            let testMonster3Id = logs[1].args._MonsterID.toNumber();
+
+            let testMonster3 = await instance.createMonster("testMonster3", 1 , 2, 1, accounts[0], { from: accounts[0] });
+            let testMonster3Id = testMonster3.logs[1].args._MonsterID.toNumber();
             console.log(testMonster3Id);
-            { logs } = await instance.createMonster("testMonster4",1,1,1,accounts[1]);
-            let testMonster4Id = logs[1].args._MonsterID.toNumber();
+
+            let testMonster4 = await instance.createMonster("testMonster3", 1 , 1, 1, accounts[1], { from: accounts[0] });            
+            let testMonster4Id = testMonster4.logs[1].args._MonsterID.toNumber();
             console.log(testMonster4Id);
-            //battlePhrase = await instance.battle(3, 4);
+            battlePhrase = await instance.battle(testMonster3Id, testMonster4Id);
 
 
             //Check the win
-            /*let win = await instance.win();
-            assert.equal(win[accounts[1]], 1, "It is a win");*/
+            let win = await instance.win();
+            assert.equal(win[accounts[0]], 1, "It is a win");
         });
     });
 
