@@ -45,7 +45,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         _;
     }
 
-    function createMonster(string memory _name, uint256 _level, uint256 _attackPower,uint256 _defensePower, address _to) public returns (uint256) {
+    function createMonster(string memory _name, uint256 _level, uint256 _attackPower,uint256 _defensePower, address _to) public {
         require(owner == msg.sender);
 
         //Monster stats requirements
@@ -60,7 +60,6 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         usedNames[keccak256(abi.encodePacked(_name))] = true;
         _mint(_to, id);
         emit MonsterCreated(id);
-        return id;
     }
 
     function battle(uint256 _monsterId, uint256 _targetId) onlyOwnerOf(_monsterId) public {
@@ -73,12 +72,14 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
             monster1.attackPower += 10;
             monster1.defensePower += 10;
             win[ownerOf(_monsterId)]++;
+            lost[ownerOf(_targetId)]++;
         }
         //Draw Case
         else if(monster1.attackPower == monster2.defensePower) {
-            
+        
             monster2.defensePower += 10;
             draw[ownerOf(_monsterId)]++;
+            draw[ownerOf(_targetId)]++;
 
         }
         //Lost Case
@@ -86,6 +87,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
             monster2.level += 1;
             monster2.attackPower += 10;
             lost[ownerOf(_monsterId)]++;
+            win[ownerOf(_targetId)]++;
         }
     }
     function fusion(uint256 _monsterId1, uint256 _monsterId2, string memory _fusionMonsterName ) public {

@@ -51,7 +51,6 @@ contract("CryptoMonsters", async accounts  => {
 
             //Check the lost
             let lost = await instance.lost.call(accounts[1]);
-            console.log(lost);
             assert.equal(lost, 1, "It is a lost");
         });
 
