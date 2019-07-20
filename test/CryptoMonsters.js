@@ -46,7 +46,7 @@ contract("CryptoMonsters", async accounts  => {
 
 
             //Check the win
-            let win = await instance.win([accounts[0]]);
+            let win = await instance.win.call(accounts[0]);
             assert.equal(win, 1, "It is a win");
         });
     });
