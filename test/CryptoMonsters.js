@@ -32,23 +32,29 @@ contract("CryptoMonsters", async accounts  => {
             assert.equal(monstersArrayLength, 2, "two monsters have been successfully created");
         });
 
-        it("Check the win case", async()=> {
+        it("Check the win and lost case", async()=> {
             let battlePhrase;
 
-            let testMonster3 = await instance.createMonster("testMonster3", 1 , 2, 1, accounts[0], { from: accounts[0] });
+            let testMonster3 = await instance.createMonster("testMonster3", 1 , 2, 1, accounts[0]);
             let testMonster3Id = testMonster3.logs[1].args._MonsterID.toNumber();
-            console.log(testMonster3Id);
+            //console.log(testMonster3Id);
 
-            let testMonster4 = await instance.createMonster("testMonster3", 1 , 1, 1, accounts[1], { from: accounts[0] });            
+            let testMonster4 = await instance.createMonster("testMonster3", 1 , 1, 1, accounts[1]);            
             let testMonster4Id = testMonster4.logs[1].args._MonsterID.toNumber();
-            console.log(testMonster4Id);
+            //console.log(testMonster4Id);
             battlePhrase = await instance.battle(testMonster3Id, testMonster4Id);
 
 
             //Check the win
             let win = await instance.win.call(accounts[0]);
             assert.equal(win, 1, "It is a win");
+
+            //Check the lost
+            let lost = await instance.lost.call(accounts[1]);
+            console.log(lost);
+            assert.equal(lost, 1, "It is a lost");
         });
+
     });
 
 
