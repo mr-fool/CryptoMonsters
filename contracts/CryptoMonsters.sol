@@ -129,4 +129,23 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         coolTime[msg.sender] = block.timestamp + 1800;
         require(block.timestamp >= coolTime[msg.sender]);
     }
+    function getStats(uint256 _id) external view
+        returns (
+            string memory name,
+            uint256 level,
+            uint256 attackPower,
+            uint256 defensePower,
+            address monsterOwner
+        )
+        {
+        Monster storage stats = monsters[_id];
+
+        // if this variable is 0 then it's not gestating
+        name = string(stats.name);
+        level = uint256(stats.level);
+        attackPower = uint256(stats.attackPower);
+        defensePower = uint256(stats.defensePower);
+        monsterOwner = address(stats.monsterOwner);
+    }
+
 }
