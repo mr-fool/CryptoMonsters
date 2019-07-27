@@ -53,7 +53,10 @@ contract("CryptoMonsters", async accounts  => {
             let lost = await instance.lost.call(accounts[1]);
             assert.equal(lost, 1, "It is a lost");
         });
-
+        it("get stats check", async() => {
+            let stats = await instance.getStats(3);
+            console.log(stats);
+        });
     });
 
 
