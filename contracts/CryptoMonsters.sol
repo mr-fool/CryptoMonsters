@@ -1,4 +1,6 @@
 pragma solidity ^0.5.0;
+// Enable the ABI v2 Coder
+pragma experimental ABIEncoderV2;
 
 import 'openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol';
 import 'openzeppelin-solidity/contracts/token/ERC721/ERC721Mintable.sol';
