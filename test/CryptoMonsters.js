@@ -57,6 +57,10 @@ contract("CryptoMonsters", async accounts  => {
             let stats = await instance.getStats(3);
             console.log(stats);
         });
+        it("get stats check using experimental features", async() => {
+            let stats = await instance.getStatsExperimental(3);
+            console.log(stats);
+        });
     });
 
 
