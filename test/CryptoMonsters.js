@@ -59,8 +59,9 @@ contract("CryptoMonsters", async accounts  => {
         });
         it("get stats check using experimental features", async() => {
             let testMonster5 = await instance.createMonster("testMonster5", 1 , 1, 1, accounts[1]);
-            let monsterCount = await instance.monstersCount();
-            console.log("monsterCount " + monsterCount);
+            let monstersCount = await instance.monstersCount();
+            console.log("monstersCount " + monstersCount);
+            console.log("cyka");
             let stats = await instance.getStatsExperimental(4);
             console.log(stats);
         });
