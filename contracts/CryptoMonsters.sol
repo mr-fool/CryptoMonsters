@@ -57,7 +57,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
 
         uint256 id =  monsters.length;
 
-        monsters.push(Monster(_name, _level, _attackPower, _defensePower, _to,id));
+        monsters.push(Monster({name: _name, level: _level,  attackPower: _attackPower,  defensePower: _defensePower, monsterOwner: _to , id: id}));
         //Mark off monster name
         usedNames[keccak256(abi.encodePacked(_name))] = true;
         _mint(_to, id);
