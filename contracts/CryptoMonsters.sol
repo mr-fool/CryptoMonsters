@@ -92,6 +92,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
             win[ownerOf(_targetId)]++;
         }
     }
+
     function fusion(uint256 _monsterId1, uint256 _monsterId2, string memory _fusionMonsterName ) public {
         //Anymore that owns the monstercan fuse the monster
         require(uint160(msg.sender) == uint160(monsters[_monsterId1].monsterOwner) & uint160(monsters[_monsterId2].monsterOwner));
@@ -131,6 +132,11 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         coolTime[msg.sender] = block.timestamp + 1800;
         require(block.timestamp >= coolTime[msg.sender]);
     }
+
+    function monstersCount() external view returns (uint256 length) {
+        return monsters.length;
+    }
+
     function getStats(uint256 _id) external view
         returns (
             string memory name,
@@ -149,6 +155,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         defensePower = uint256(stats.defensePower);
         monsterOwner = address(stats.monsterOwner);
     }
+
     function getStatsExperimental(uint256 _id) external view returns (Monster memory) {
         return monsters[_id];
     }
