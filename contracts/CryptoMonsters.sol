@@ -149,8 +149,7 @@ contract CryptoMonsters is ERC721Full, ERC721Mintable {
         defensePower = uint256(stats.defensePower);
         monsterOwner = address(stats.monsterOwner);
     }
-    function getStatsExperimental(uint256 _id) public view returns (Monster memory){
+    function getStatsExperimental(uint256 _id) external view returns (Monster memory) {
         return monsters[_id];
-
     }
 }
